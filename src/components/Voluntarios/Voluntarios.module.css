@@ -1,0 +1,66 @@
+#voluntarios { background: var(--bk); }
+
+.volG {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.5rem;
+  align-items: center;
+}
+
+.volT p { color: var(--w70); margin-bottom: .85rem; line-height: 1.85; font-size: .91rem; }
+
+.volUl { list-style: none; margin: 1.4rem 0; }
+.volUl li {
+  font-family: var(--mono);
+  font-size: .66rem;
+  color: var(--w45);
+  padding: .4rem 0;
+  border-bottom: 1px solid var(--w04);
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  letter-spacing: .03em;
+}
+.volUl li::before { content: "—"; color: var(--red); flex-shrink: 0; }
+
+.volBox {
+  background: var(--bk3);
+  border: 1px solid var(--r25);
+  padding: 2.4rem;
+  text-align: center;
+  clip-path: polygon(0 0, calc(100% - 17px) 0, 100% 17px, 100% 100%, 0 100%);
+}
+
+.volBig {
+  font-family: var(--mono);
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--red);
+  display: block;
+  line-height: 1;
+}
+
+.volLbl {
+  font-family: var(--mono);
+  font-size: .57rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--w45);
+  margin-top: .38rem;
+  display: block;
+}
+
+.volRoles {
+  margin-top: 1.4rem;
+  border-top: 1px solid var(--r12);
+  padding-top: 1.2rem;
+  font-family: var(--mono);
+  font-size: .56rem;
+  color: var(--w45);
+  letter-spacing: .08em;
+  line-height: 2.2;
+}
+
+@media (max-width: 768px) {
+  .volG { grid-template-columns: 1fr; }
+}

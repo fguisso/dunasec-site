@@ -1,0 +1,83 @@
+#localizacao { background: var(--bk); }
+
+.localG {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.localT p { color: var(--w70); margin-bottom: .85rem; line-height: 1.85; font-size: .91rem; }
+
+.localAddr {
+  background: var(--bk3);
+  border: 1px solid var(--r25);
+  padding: 1.1rem 1.2rem;
+  margin: 1.2rem 0;
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+}
+
+.localEy {
+  font-family: var(--mono);
+  font-size: .52rem;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: .38rem;
+  display: block;
+}
+.localEy::before { content: "// "; }
+
+.localAddr p { color: var(--w70); font-size: .88rem; }
+
+.localFr {
+  position: relative;
+  border: 1px solid var(--r25);
+  overflow: hidden;
+  clip-path: polygon(0 0, calc(100% - 17px) 0, 100% 17px, 100% 100%, 17px 100%, 0 calc(100% - 17px));
+}
+
+.localPh {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background: var(--bk3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.lhud {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+}
+.lhud.tl { top: 0; left: 0; border-top: 2px solid var(--red); border-left: 2px solid var(--red); }
+.lhud.tr { top: 0; right: 0; border-top: 2px solid var(--red); border-right: 2px solid var(--red); }
+.lhud.bl { bottom: 0; left: 0; border-bottom: 2px solid var(--red); border-left: 2px solid var(--red); }
+.lhud.br { bottom: 0; right: 0; border-bottom: 2px solid var(--red); border-right: 2px solid var(--red); }
+
+.localCoord {
+  position: absolute;
+  bottom: .65rem;
+  left: .65rem;
+  font-family: var(--mono);
+  font-size: .54rem;
+  color: var(--red);
+  background: rgba(0, 0, 0, .85);
+  padding: .22rem .5rem;
+  letter-spacing: .08em;
+}
+
+.phLabel {
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--w20);
+}
+
+@media (max-width: 768px) {
+  .localG { grid-template-columns: 1fr; }
+}

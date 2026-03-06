@@ -1,0 +1,82 @@
+#sobre { background: var(--bk2); }
+
+.sobreG {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.5rem;
+  align-items: center;
+}
+
+.sobreT p { color: var(--w70); margin-bottom: .9rem; font-size: .93rem; line-height: 1.85; }
+.sobreT p strong { color: var(--cyn); font-weight: 600; }
+.sobreT p em { color: var(--red); font-style: normal; font-weight: 600; }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .9rem;
+  margin-top: 2rem;
+}
+
+.stat {
+  background: var(--bk3);
+  border: 1px solid var(--r25);
+  padding: 1.1rem .85rem;
+  text-align: center;
+  clip-path: polygon(7px 0%, 100% 0%, calc(100% - 7px) 100%, 0% 100%);
+  transition: border-color .2s;
+}
+.stat:hover { border-color: var(--red); }
+
+.statN {
+  font-family: var(--mono);
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--red);
+  display: block;
+  line-height: 1;
+}
+
+.statL {
+  font-family: var(--mono);
+  font-size: .52rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--w45);
+  margin-top: .3rem;
+  display: block;
+}
+
+.sobreVis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.mark {
+  position: relative;
+  width: 360px;
+  height: 360px;
+}
+
+.markGlow {
+  position: absolute;
+  inset: -10px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--r12) 0%, transparent 65%);
+  animation: pulse 4.5s ease-in-out infinite;
+  z-index: 0;
+}
+
+.mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .sobreG { grid-template-columns: 1fr; }
+}

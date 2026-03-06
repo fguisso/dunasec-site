@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Código de Conduta — DunaSec 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #000000; --black-deep: #050505; --black-surface: #111111;
+      --red: #FF0040; --cyan: #00FFFF; --white: #FFFFFF;
+      --white-dim: rgba(255,255,255,0.75); --white-muted: rgba(255,255,255,0.45);
+      --font-display: 'Orbitron', monospace;
+      --font-mono: 'Share Tech Mono', monospace;
+      --font-body: 'Exo 2', sans-serif;
+      --border-red: 1px solid rgba(255,0,64,0.4);
+      --border-dim: 1px solid rgba(255,255,255,0.08);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--black); color: var(--white); font-family: var(--font-body); font-weight: 300; }
+
+    #navbar { position: sticky; top: 0; z-index: 1000; background: rgba(0,0,0,0.95); backdrop-filter: blur(20px); border-bottom: var(--border-red); padding: 1.2rem 0; }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; max-width: 1280px; margin: 0 auto; padding: 0 2rem; }
+    .nav-logo { font-family: var(--font-display); font-size: 1.4rem; font-weight: 900; color: var(--white); text-decoration: none; letter-spacing: 0.15em; }
+    .nav-logo span { color: var(--red); }
+    .btn { font-family: var(--font-display); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; text-decoration: none; padding: 0.65rem 1.5rem; transition: all 0.25s; display: inline-flex; align-items: center; gap: 0.4rem; clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%); }
+    .btn-outline { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.3); }
+    .btn-outline:hover { border-color: var(--red); color: var(--red); }
+
+    .container { max-width: 860px; margin: 0 auto; padding: 0 2rem; }
+
+    .page-header { padding: 5rem 0 3rem; background: var(--black-deep); border-bottom: var(--border-red); }
+    .page-header h1 { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 900; letter-spacing: 0.05em; }
+    .page-header h1 span { color: var(--red); }
+    .page-header .meta { font-family: var(--font-mono); font-size: 0.75rem; color: var(--white-muted); margin-top: 0.8rem; letter-spacing: 0.1em; }
+
+    main { padding: 5rem 0 7rem; }
+
+    .doc-section { margin-bottom: 4rem; }
+    .doc-section h2 { font-family: var(--font-display); font-size: 1.1rem; font-weight: 700; letter-spacing: 0.1em; color: var(--red); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.8rem; }
+    .doc-section h2::before { content: ''; width: 30px; height: 2px; background: var(--red); flex-shrink: 0; }
+    .doc-section p { color: var(--white-dim); line-height: 1.9; margin-bottom: 1rem; font-size: 1rem; }
+    .doc-section ul { list-style: none; }
+    .doc-section ul li { color: var(--white-dim); padding: 0.5rem 0; border-bottom: var(--border-dim); line-height: 1.7; font-size: 0.95rem; padding-left: 1.2rem; position: relative; }
+    .doc-section ul li::before { content: '▸'; color: var(--red); position: absolute; left: 0; font-size: 0.7rem; top: 0.65rem; }
+
+    .doc-section ul.bad li::before { color: #FF6666; }
+    .doc-section ul.good li::before { color: #66FF99; }
+
+    .callout {
+      background: rgba(255,0,64,0.06); border: var(--border-red);
+      padding: 1.5rem 2rem; margin: 2rem 0;
+      clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+    }
+    .callout p { color: var(--white-dim); font-size: 0.9rem; margin: 0; }
+    .callout strong { color: var(--white); }
+
+    .review-badge {
+      display: inline-block; font-family: var(--font-mono); font-size: 0.6rem;
+      letter-spacing: 0.15em; text-transform: uppercase; padding: 0.2rem 0.6rem;
+      background: rgba(255,200,0,0.1); color: #FFD700; border: 1px solid rgba(255,200,0,0.3);
+      margin-left: 0.5rem; vertical-align: middle;
+    }
+
+    .contact-box {
+      background: var(--black-surface); border: var(--border-red); padding: 2rem;
+      text-align: center;
+      clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
+    }
+    .contact-box h3 { font-family: var(--font-display); font-size: 1rem; letter-spacing: 0.1em; margin-bottom: 0.5rem; }
+    .contact-box p { color: var(--white-muted); font-size: 0.85rem; margin-bottom: 1rem; }
+    .contact-box a { color: var(--red); font-family: var(--font-mono); font-size: 0.9rem; text-decoration: none; letter-spacing: 0.05em; }
+    .contact-box a:hover { color: var(--white); }
+
+    .divider { height: 1px; background: var(--border-dim); margin: 3rem 0; border: none; }
+
+    footer { background: var(--black); border-top: var(--border-red); padding: 2rem 0; }
+    .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; max-width: 1280px; margin: 0 auto; padding: 0 2rem; }
+    .footer-inner p { font-family: var(--font-mono); font-size: 0.65rem; color: var(--white-muted); letter-spacing: 0.1em; }
+
+    .scanline { position: fixed; inset: 0; background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px); pointer-events: none; z-index: 9998; }
+  </style>
+</head>
+<body>
+<div class="scanline" aria-hidden="true"></div>
+
+<nav id="navbar" role="navigation" aria-label="Navegação principal">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Voltar para o site DunaSec">DUNA<span>SEC</span></a>
+    <a href="index.html" class="btn btn-outline">← Voltar para o site</a>
+  </div>
+</nav>
+
+<header class="page-header" role="banner">
+  <div class="container">
+    <h1>Código de <span>Conduta</span></h1>
+    <p class="meta">DunaSec 2026 · Natal, RN · Versão 1.0 <span class="review-badge">Revisar antes do evento</span></p>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <div class="doc-section">
+      <h2>Nosso Compromisso</h2>
+      <p>O DunaSec é um espaço dedicado à colaboração, aprendizado e conexão dentro da comunidade de cibersegurança do Nordeste e do Brasil. Estamos comprometidos em oferecer uma experiência livre de assédio, discriminação e constrangimento para todos os participantes, independentemente de identidade de gênero, orientação sexual, deficiência, etnia, religião, nível de experiência, nacionalidade ou qualquer outra característica pessoal.</p>
+      <p>Ao participar do DunaSec 2026 — como palestrante, patrocinador, voluntário ou visitante — você concorda em respeitar este código de conduta.</p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="doc-section">
+      <h2>Comportamentos Esperados</h2>
+      <ul class="good" role="list">
+        <li>Tratar todos os participantes com respeito e gentileza</li>
+        <li>Usar linguagem inclusiva e acolhedora</li>
+        <li>Aceitar críticas construtivas com abertura</li>
+        <li>Focar no que é melhor para a comunidade e para o evento</li>
+        <li>Demonstrar empatia com outros participantes</li>
+        <li>Respeitar os espaços físicos e virtuais do evento</li>
+        <li>Identificar e respeitar limites pessoais dos demais participantes</li>
+      </ul>
+    </div>
+
+    <hr class="divider">
+
+    <div class="doc-section">
+      <h2>Comportamentos Inaceitáveis</h2>
+      <ul class="bad" role="list">
+        <li>Uso de linguagem ou imagens de cunho sexual em qualquer espaço do evento</li>
+        <li>Assédio de qualquer tipo, incluindo comentários ofensivos sobre gênero, orientação sexual, etnia, religião ou deficiência</li>
+        <li>Intimidação deliberada, perseguição ou fotografar/gravar alguém sem consentimento</li>
+        <li>Interrupções repetidas ou desrespeitosas de palestras, painéis ou conversas</li>
+        <li>Contato físico inapropriado sem consentimento</li>
+        <li>Comportamento que crie ambiente hostil ou inseguro para qualquer participante</li>
+        <li>Discriminação com base em qualquer característica pessoal</li>
+        <li>Uso de técnicas ou conhecimentos de segurança ofensiva de forma não autorizada no ambiente do evento</li>
+      </ul>
+    </div>
+
+    <hr class="divider">
+
+    <div class="doc-section">
+      <h2>Uso Ético de Conhecimento <span class="review-badge">Revisar</span></h2>
+      <p>O DunaSec é um evento de cibersegurança. O conhecimento compartilhado aqui deve ser utilizado de forma ética e responsável. É expressamente proibido:</p>
+      <ul role="list">
+        <li>Realizar qualquer tipo de ataque ou exploração em redes, dispositivos ou sistemas no local do evento sem autorização explícita</li>
+        <li>Capturar ou interceptar tráfego de rede dos participantes</li>
+        <li>Utilizar o ambiente do evento para práticas ilegais de qualquer natureza</li>
+        <li>Compartilhar informações confidenciais de palestrantes ou patrocinadores sem autorização</li>
+      </ul>
+    </div>
+
+    <hr class="divider">
+
+    <div class="doc-section">
+      <h2>Como Reportar <span class="review-badge">Revisar contatos</span></h2>
+      <p>Se você presenciar ou sofrer alguma situação que viole este código de conduta, entre em contato imediatamente com a organização do evento:</p>
+      <ul role="list">
+        <li>Procure pessoalmente qualquer membro da organização ou voluntário identificado com crachá especial</li>
+        <li>Envie e-mail para <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ceada1a0baafadba8ea6aba5afbaaba7a0ade0ada1a3">[email&#160;protected]</a></strong> com o assunto "Código de Conduta"</li>
+        <li>Utilize o formulário de reporte disponível no credenciamento [A DEFINIR]</li>
+      </ul>
+      <p style="margin-top:1rem;">Todas as denúncias serão tratadas com seriedade, confidencialidade e respeito pela vítima. Nenhuma denúncia de boa-fé resultará em retaliação.</p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="doc-section">
+      <h2>Consequências <span class="review-badge">Revisar com assessoria jurídica</span></h2>
+      <p>Participantes que violarem este código de conduta poderão sofrer as seguintes consequências, a critério exclusivo da organização:</p>
+      <ul role="list">
+        <li>Advertência formal e solicitação de mudança de comportamento imediata</li>
+        <li>Remoção do evento sem direito a reembolso do ingresso</li>
+        <li>Proibição de participação em edições futuras do DunaSec</li>
+        <li>Notificação às autoridades competentes em casos de atividade ilegal</li>
+      </ul>
+    </div>
+
+    <div class="callout" role="note">
+      <p><strong>Nota sobre este documento:</strong> Este código de conduta está em sua versão 1.0 e deve ser revisado por assessoria jurídica antes do evento. Os trechos marcados com <span class="review-badge">Revisar</span> necessitam de atenção especial. A organização reserva-se o direito de atualizar este documento a qualquer momento.</p>
+    </div>
+
+    <div class="contact-box" role="region" aria-label="Contato da organização">
+      <h3>Dúvidas sobre o Código de Conduta?</h3>
+      <p>Entre em contato com a organização do DunaSec</p>
+      <a href="mailto:contact@hekateinc.com">contact@hekateinc.com</a>
+    </div>
+  </main>
+</body>
+</html>

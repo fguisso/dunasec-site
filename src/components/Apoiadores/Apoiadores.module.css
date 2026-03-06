@@ -1,0 +1,36 @@
+#apoiadores {
+  background: var(--bk2);
+  border-top: 1px solid var(--w04);
+}
+
+.lrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-bottom: 1.8rem;
+}
+
+.lph {
+  background: var(--bk3);
+  border: 1px solid var(--w04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono);
+  color: var(--w20);
+  font-size: .54rem;
+  letter-spacing: .1em;
+  transition: border-color .2s;
+}
+.lph:hover { border-color: var(--r25); }
+
+.lm { width: 148px; height: 68px; }
+
+.ctaText {
+  font-family: var(--mono);
+  font-size: .7rem;
+  color: var(--w45);
+  margin-bottom: .9rem;
+  letter-spacing: .05em;
+}
+.ctaText::before { content: "// "; }

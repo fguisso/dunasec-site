@@ -1,0 +1,56 @@
+#caravanas { background: var(--bk2); }
+
+.carG {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.8rem;
+  align-items: start;
+}
+
+.carT p { color: var(--w70); margin-bottom: .85rem; line-height: 1.85; font-size: .91rem; }
+
+.carCards {
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+}
+
+.carCard {
+  background: var(--bk3);
+  border: 1px solid var(--w04);
+  padding: .9rem 1.1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .8rem;
+  align-items: center;
+  transition: border-color .2s;
+}
+.carCard:hover { border-color: var(--r25); }
+
+.carIco {
+  font-family: var(--mono);
+  font-size: .7rem;
+  color: var(--red);
+  width: 32px;
+  text-align: center;
+}
+
+.carCard h4 {
+  font-family: var(--mono);
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  margin-bottom: .1rem;
+}
+
+.carCard p {
+  font-family: var(--mono);
+  font-size: .57rem;
+  color: var(--w45);
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .carG { grid-template-columns: 1fr; }
+}

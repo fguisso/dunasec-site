@@ -1,0 +1,100 @@
+.pageHeader {
+  padding: 5rem 0 3rem;
+  background: var(--bk2);
+  border-bottom: 1px solid var(--r25);
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: .8rem;
+}
+.eyebrow::before { content: "// "; opacity: .5; }
+
+.pageHeader h1 {
+  font-family: var(--mono);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  letter-spacing: .05em;
+}
+.pageHeader h1 span { color: var(--red); }
+
+main { padding: 4rem 0 6rem; }
+
+.docSection { margin-bottom: 3rem; }
+
+.docSection h2 {
+  font-family: var(--mono);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 1.2rem;
+}
+.docSection h2::before { content: "// "; opacity: .5; }
+
+.docSection p {
+  color: var(--w70);
+  line-height: 1.9;
+  margin-bottom: 1rem;
+  font-size: .95rem;
+}
+
+.docSection a { color: var(--red); }
+.docSection a:hover { color: var(--wh); }
+
+.docSection strong { color: var(--wh); font-weight: 600; }
+
+.docSection ul { list-style: none; }
+.docSection ul li {
+  color: var(--w70);
+  padding: .55rem 0 .55rem 1.2rem;
+  border-bottom: 1px solid var(--w04);
+  line-height: 1.75;
+  font-size: .93rem;
+  position: relative;
+}
+.docSection ul li::before {
+  content: '—';
+  color: var(--red);
+  position: absolute;
+  left: 0;
+  font-family: var(--mono);
+}
+
+footer {
+  background: var(--bk);
+  border-top: 1px solid var(--w08);
+  padding: 2rem 0;
+}
+
+.footerInner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footerInner p {
+  font-family: var(--mono);
+  font-size: .65rem;
+  color: var(--w45);
+  letter-spacing: .1em;
+}
+
+.footerInner p a { color: var(--w45); text-decoration: none; }
+.footerInner p a:hover { color: var(--wh); }

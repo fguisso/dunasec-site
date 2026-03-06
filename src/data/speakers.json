@@ -1,0 +1,6 @@
+[
+  { "id": "ak", "name": "Allan Kardec", "initials": "AK", "role": "Tech Leader AppSec", "company": "Hakai Security", "track": "tecnica", "photo": "/speakers/ak.jpeg" },
+  { "id": "cn", "name": "Clara Nobre", "initials": "CN", "role": "Cloud Security Architect", "company": "PicPay", "track": "tecnica", "photo": "/speakers/cn.jpeg" },
+  { "id": "cl", "name": "Caio Luders", "initials": "CL", "role": "Security Researcher", "company": "Independent", "track": "tecnica", "photo": null },
+  { "id": "ac", "name": "Anderson Cirilo", "initials": "AC", "role": "Threat Intel Analyst", "company": "Mercado Livre", "track": "tecnica", "photo": null }
+]

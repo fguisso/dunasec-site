@@ -1,0 +1,20 @@
+[
+  { "time": "08:00", "duration": 60, "type": "break", "title": "Credenciamento & Abertura de Portas", "description": "Boas-vindas ao DunaSec 2026", "track": "all" },
+  { "time": "09:00", "duration": 45, "type": "open", "title": "[Cerimônia de Abertura] DunaSec 2026", "description": "Organização · Palavra de abertura · Apresentação do evento", "track": "all" },
+  { "time": "09:45", "duration": 45, "type": "gerencial", "title": "[Título a definir]", "speakerId": "ac", "track": "gerencial" },
+  { "time": "09:45", "duration": 45, "type": "tecnica", "title": "[Título a definir]", "speakerId": "ak", "track": "tecnica" },
+  { "time": "10:30", "duration": 30, "type": "break", "title": "Coffee Break & Networking", "track": "all" },
+  { "time": "11:00", "duration": 45, "type": "gerencial", "title": "[Título a definir]", "speakerId": null, "track": "gerencial" },
+  { "time": "11:00", "duration": 45, "type": "tecnica", "title": "[Título a definir]", "speakerId": "cn", "track": "tecnica" },
+  { "time": "11:45", "duration": 45, "type": "gerencial", "title": "[Título a definir]", "speakerId": null, "track": "gerencial" },
+  { "time": "11:45", "duration": 45, "type": "tecnica", "title": "[Título a definir]", "speakerId": "cl", "track": "tecnica" },
+  { "time": "12:30", "duration": 90, "type": "break", "title": "Almoço & Networking", "track": "all" },
+  { "time": "14:00", "duration": 60, "type": "panel", "title": "IA, Privacidade e o Futuro da Cibersegurança no Brasil", "description": "Com todos os palestrantes · Mediação: [A Definir]", "track": "all" },
+  { "time": "15:00", "duration": 45, "type": "gerencial", "title": "[Segurança para Startups — a definir]", "speakerId": null, "track": "gerencial" },
+  { "time": "15:00", "duration": 45, "type": "tecnica", "title": "[Palestra técnica de alto nível — a definir]", "speakerId": null, "track": "tecnica" },
+  { "time": "15:45", "duration": 20, "type": "break", "title": "Coffee Break", "track": "all" },
+  { "time": "16:05", "duration": 45, "type": "gerencial", "title": "[Título a definir]", "speakerId": null, "track": "gerencial" },
+  { "time": "16:05", "duration": 45, "type": "tecnica", "title": "[Título a definir]", "speakerId": null, "track": "tecnica" },
+  { "time": "17:00", "duration": 60, "type": "open", "title": "Cerimônia de Encerramento & Sorteios", "description": "Agradecimentos · Sorteio de brindes · Foto oficial", "track": "all" },
+  { "time": "18:00", "duration": 120, "type": "break", "title": "Networking Social", "description": "Confraternização · até 20:00", "track": "all" }
+]

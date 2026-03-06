@@ -1,0 +1,94 @@
+.spkG {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.spk {
+  background: var(--bk3);
+  border: 1px solid var(--w04);
+  padding: 1.7rem 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: border-color .25s, transform .25s;
+  clip-path: polygon(0 0, calc(100% - 13px) 0, 100% 13px, 100% 100%, 0 100%);
+}
+
+.spk::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 13px 13px 0;
+  border-color: transparent var(--red) transparent transparent;
+}
+
+.spk:hover { border-color: var(--r25); transform: translateY(-4px); }
+
+.spkAv {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto .85rem;
+  border: 1px solid var(--r25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--mono);
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: var(--bk2);
+  color: var(--wh);
+}
+
+.spkNm {
+  font-family: var(--mono);
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  margin-bottom: .22rem;
+}
+
+.spkRl {
+  font-family: var(--mono);
+  font-size: .56rem;
+  color: var(--red);
+  letter-spacing: .07em;
+  margin-bottom: .18rem;
+}
+
+.spkCo { font-size: .66rem; color: var(--w45); }
+
+.spkB {
+  margin-top: .65rem;
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: .5rem;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  padding: .16rem .48rem;
+}
+
+.sbt { background: var(--r05); color: var(--red); border: 1px solid var(--r25); }
+.sbr { background: rgba(0, 255, 255, .04); color: var(--cyn); border: 1px solid rgba(0, 255, 255, .18); }
+
+.spkAvImg { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+
+.spkCta { text-align: center; }
+.spkCta p {
+  font-family: var(--mono);
+  font-size: .7rem;
+  color: var(--w45);
+  margin-bottom: 1rem;
+  letter-spacing: .05em;
+}
+.spkCta p::before { content: "// "; }
+
+@media (max-width: 768px) {
+  .spkG { grid-template-columns: repeat(2, 1fr); }
+}
