@@ -182,3 +182,12 @@
   color: var(--w45);
   margin-top: .25rem;
 }
+
+@media (max-width: 768px) {
+  .hG1, .hG2 { display: none; }
+  .hCircL, .hCircR { width: 50%; opacity: .08; }
+  .heroIn { padding: 5rem 1.5rem 3.5rem; }
+  .hMeta { justify-content: center; }
+  .hBtns { justify-content: center; }
+  .cd { justify-content: center; }
+}

@@ -26,6 +26,10 @@
 
 .lm { width: 148px; height: 68px; }
 
+@media (max-width: 480px) {
+  .lm { width: calc(50% - .4rem); height: 60px; }
+}
+
 .ctaText {
   font-family: var(--mono);
   font-size: .7rem;
