@@ -30,7 +30,7 @@ export function Apoiadores() {
 
         <div className="rv" style={{ textAlign: 'center' }}>
           <p className={s.ctaText}>Quer apoiar o DunaSec?</p>
-          <a href="https://forms.gle/pxC9GMMMMgP7LreZA" target="_blank" rel="noopener" className="btn btn-out">Seja um Apoiador</a>
+          <a href="https://forms.gle/pxC9GMMMMgP7LreZA" target="_blank" rel="noopener noreferrer" className="btn btn-out">Seja um Apoiador</a>
         </div>
       </div>
     </section>

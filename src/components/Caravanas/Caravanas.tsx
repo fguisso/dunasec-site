@@ -29,7 +29,7 @@ export function Caravanas() {
               Inscreva-se no grupo da sua cidade e venha junto com outros profissionais e estudantes de cibersegurança.
             </p>
             <div className="rv d3" style={{ marginTop: '1.6rem' }}>
-              <a href="https://forms.gle/dhybHr7LmwUWMWr57" target="_blank" rel="noopener" className="btn btn-out">
+              <a href="https://forms.gle/dhybHr7LmwUWMWr57" target="_blank" rel="noopener noreferrer" className="btn btn-out">
                 Quero participar de uma caravana
               </a>
             </div>

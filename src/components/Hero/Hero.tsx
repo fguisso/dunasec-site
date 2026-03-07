@@ -33,7 +33,7 @@ export function Hero() {
           <span>Evento Presencial · 250 participantes</span>
         </div>
         <div className={s.hBtns}>
-          <a href="https://sympla.com.br" target="_blank" rel="noopener" className="btn btn-red btn-lg">
+          <a href="https://sympla.com.br" target="_blank" rel="noopener noreferrer" className="btn btn-red btn-lg">
             Comprar Ingresso
           </a>
           <a href="#patrocinadores" className="btn btn-out btn-lg">

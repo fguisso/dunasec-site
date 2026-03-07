@@ -47,11 +47,12 @@ export function Navbar() {
             <a href={sectionHref('#patrocinadores')} className={`btn btn-out ${s.hideOnMobile}`}>
               Seja Patrocinador
             </a>
-            <a href="https://sympla.com.br" target="_blank" rel="noopener" className="btn btn-red">
+            <a href="https://sympla.com.br" target="_blank" rel="noopener noreferrer" className="btn btn-red">
               Comprar Ingresso
             </a>
           </div>
           <button
+            type="button"
             className={`${s.hbg}${open ? ' ' + s.open : ''}`}
             onClick={toggleMenu}
             aria-label="Menu"
@@ -71,7 +72,7 @@ export function Navbar() {
         <a
           href="https://sympla.com.br"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           className="btn btn-red btn-lg"
           onClick={closeMenu}
         >
