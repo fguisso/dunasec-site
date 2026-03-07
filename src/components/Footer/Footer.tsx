@@ -13,14 +13,14 @@ export function Footer() {
             </Link>
             <p>O evento de cibersegurança nascido no coração do Nordeste. 30 de maio de 2026, Natal, RN.</p>
             <div className={s.socials}>
-              <a href="https://instagram.com" target="_blank" rel="noopener" className={s.soc} aria-label="Instagram">
+              <a href="https://www.instagram.com/dunasec/" target="_blank" rel="noopener noreferrer" className={s.soc} aria-label="Instagram">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <rect x="2" y="2" width="20" height="20" rx="5" />
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
                   <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                 </svg>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener" className={s.soc} aria-label="LinkedIn">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={s.soc} aria-label="LinkedIn">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
                   <rect x="2" y="9" width="4" height="12" />
@@ -43,7 +43,7 @@ export function Footer() {
           <nav className={s.ftCol}>
             <h4>Participe</h4>
             <ul>
-              <li><a href="https://sympla.com.br" target="_blank" rel="noopener">Comprar Ingresso</a></li>
+              <li><a href="https://sympla.com.br" target="_blank" rel="noopener noreferrer">Comprar Ingresso</a></li>
               <li><a href="#caravanas">Caravanas</a></li>
               <li><a href="#voluntarios">Voluntários</a></li>
               <li><a href="#patrocinadores">Patrocínio</a></li>

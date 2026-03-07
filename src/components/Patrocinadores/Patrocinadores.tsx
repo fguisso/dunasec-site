@@ -58,7 +58,7 @@ export function Patrocinadores() {
             Traga sua marca para <b>nosso evento</b>
           </h3>
           <p>Conecte-se com 250+ profissionais de TI, C-levels e decisores de segurança digital.</p>
-          <a href="https://forms.gle/C8ceUqPmbshzd22SA" target="_blank" rel="noopener" className="btn btn-red btn-lg">
+          <a href="https://forms.gle/C8ceUqPmbshzd22SA" target="_blank" rel="noopener noreferrer" className="btn btn-red btn-lg">
             Quero ser Patrocinador
           </a>
         </div>

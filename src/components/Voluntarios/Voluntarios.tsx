@@ -26,7 +26,7 @@ export function Voluntarios() {
               <li>Camiseta oficial DunaSec 2026</li>
             </ul>
             <div className="rv d3">
-              <a href="https://forms.gle/TbSjKwxmpBQCkqex5" target="_blank" rel="noopener" className="btn btn-red">
+              <a href="https://forms.gle/TbSjKwxmpBQCkqex5" target="_blank" rel="noopener noreferrer" className="btn btn-red">
                 Quero ser voluntário
               </a>
             </div>
