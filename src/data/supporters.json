@@ -12,6 +12,7 @@
   { "name": "Chapéu de Palha",        "logo": "/apoio/chapeu-de-palha.png",                 "url": null,                               "bg": null  },
   { "name": "VP2",                    "logo": "/apoio/vp2_png.png",                         "url": null,                               "bg": null  },
   { "name": "Quantum Village BR",     "logo": "/apoio/Logo_Quantum_Village_BR-02.png",      "url": null,                               "bg": "black" },
+  { "name": "Tramoia",               "logo": "/apoio/tramoia_logo.png",                    "url": "https://tramoia.sh",               "bg": "black" },
   { "name": "Guia Anônima",           "logo": "/apoio/guia anonima.png",                    "url": null,                               "bg": "black" },
   { "name": "Security is a Lifestyle","logo": "/apoio/security is a lifestyle.jpg",         "url": null,                               "bg": "black" },
   { "name": "OxE HackerConf",         "logo": "/apoio/OxE HackerSpace OxE - PNG.png",      "url": "https://conference.oxehc.com.br/", "bg": "white" },
