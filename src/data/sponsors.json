@@ -1,6 +1,6 @@
 [
   { "tier": "platina", "label": "Platina", "price": 15000, "slots": 2, "colorClass": "tp", "lineClass": "tlp", "items": [] },
-  { "tier": "ouro", "label": "Ouro", "price": 10000, "slots": 3, "colorClass": "tr2", "lineClass": "tlr", "items": [] },
-  { "tier": "prata", "label": "Prata", "price": 6000, "slots": 4, "colorClass": "tc2", "lineClass": "tlc", "items": [] },
-  { "tier": "bronze", "label": "Bronze", "price": 3000, "slots": 5, "colorClass": "tg", "lineClass": "tlg", "items": [] }
+  { "tier": "ouro",    "label": "Ouro",    "price": 10000, "slots": 3, "colorClass": "tr2", "lineClass": "tlr", "items": [] },
+  { "tier": "prata",   "label": "Prata",   "price": 6000,  "slots": 4, "colorClass": "tc2", "lineClass": "tlc", "items": [] },
+  { "tier": "bronze",  "label": "Bronze",  "price": 3000,  "slots": 5, "colorClass": "tg",  "lineClass": "tlg", "items": [] }
 ]

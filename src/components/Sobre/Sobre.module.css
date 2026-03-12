@@ -78,5 +78,7 @@
 }
 
 @media (max-width: 768px) {
-  .sobreG { grid-template-columns: 1fr; }
+  .sobreG { grid-template-columns: 1fr; gap: 2rem; }
+  .sobreVis { display: none; }
+  .stats { grid-template-columns: repeat(3, 1fr); }
 }

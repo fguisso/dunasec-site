@@ -39,9 +39,17 @@ export function Patrocinadores() {
               </div>
               <div className={s.lrow}>
                 {tier.items.length > 0
-                  ? tier.items.map((item: { name: string }, i: number) => (
-                      <div key={i} className={`${s.lph} ${size}`}>{item.name}</div>
-                    ))
+                  ? tier.items.map((item: { name: string; logo?: string; url?: string }, i: number) =>
+                      item.url ? (
+                        <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" className={`${s.lph} ${size}`}>
+                          {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} /> : item.name}
+                        </a>
+                      ) : (
+                        <div key={i} className={`${s.lph} ${size}`}>
+                          {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} /> : item.name}
+                        </div>
+                      )
+                    )
                   : Array.from({ length: tier.slots }).map((_, i) => (
                       <div key={i} className={`${s.lph} ${size}`}>
                         {tier.label.toUpperCase()}

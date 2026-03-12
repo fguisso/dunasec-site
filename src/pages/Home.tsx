@@ -17,8 +17,8 @@ export function Home() {
       <Sobre />
       <Trilhas />
       <Speakers />
-      <Apoiadores />
       <Patrocinadores />
+      <Apoiadores />
       <Caravanas />
       <Voluntarios />
 <CtaFinal />

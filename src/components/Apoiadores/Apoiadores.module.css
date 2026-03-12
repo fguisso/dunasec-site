@@ -24,7 +24,16 @@
 }
 .lph:hover { border-color: var(--r25); }
 
-.lm { width: 148px; height: 68px; }
+.lm { width: 200px; height: 100px; }
+
+.limg { max-width: 160px; max-height: 80px; object-fit: contain; }
+
+.bgWhite { background: #fff; }
+.bgBlack { background: #000; }
+
+@media (max-width: 480px) {
+  .lm { width: calc(50% - .4rem); height: 60px; }
+}
 
 .ctaText {
   font-family: var(--mono);

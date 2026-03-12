@@ -31,8 +31,8 @@ export function Sobre() {
                 <span className={s.statL}>Trilhas</span>
               </div>
               <div className={`${s.stat} rv d3`}>
-                <span className={s.statN}>4+</span>
-                <span className={s.statL}>Palestrantes</span>
+                <span className={s.statN}>8h+</span>
+                <span className={s.statL}>Conteúdo</span>
               </div>
             </div>
           </div>

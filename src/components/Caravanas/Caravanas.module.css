@@ -52,5 +52,5 @@
 }
 
 @media (max-width: 768px) {
-  .carG { grid-template-columns: 1fr; }
+  .carG { grid-template-columns: 1fr; gap: 2rem; }
 }

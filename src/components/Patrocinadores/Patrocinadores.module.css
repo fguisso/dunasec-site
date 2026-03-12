@@ -51,10 +51,21 @@
 }
 .lph:hover { border-color: var(--r25); }
 
+.limg { max-width: 80%; max-height: 60%; object-fit: contain; }
+
 .lg { width: 185px; height: 80px; }
 .lm { width: 148px; height: 68px; }
 .ls { width: 118px; height: 55px; }
 .lx { width: 96px; height: 46px; }
+
+@media (max-width: 480px) {
+  .lg { width: calc(50% - .4rem); height: 70px; }
+  .lm { width: calc(50% - .4rem); height: 60px; }
+  .ls { width: calc(33% - .5rem); height: 52px; }
+  .lx { width: calc(33% - .5rem); height: 44px; }
+  .patCta { padding: 1.6rem 1.2rem; }
+  .patCta h3 { font-size: .85rem; }
+}
 
 .patCta {
   border: 1px solid var(--red);

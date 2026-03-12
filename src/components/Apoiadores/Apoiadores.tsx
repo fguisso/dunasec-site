@@ -2,6 +2,10 @@ import supportersData from '../../data/supporters.json'
 import { useReveal } from '../../hooks/useReveal'
 import s from './Apoiadores.module.css'
 
+type Supporter = { name: string; logo?: string; url?: string | null; bg?: string | null }
+
+const bgClass: Record<string, string> = { white: s.bgWhite, black: s.bgBlack }
+
 export function Apoiadores() {
   const ref = useReveal()
 
@@ -16,9 +20,15 @@ export function Apoiadores() {
 
         {supportersData.items.length > 0 ? (
           <div className={`${s.lrow} rv`}>
-            {supportersData.items.map((item: { name: string }, i: number) => (
-              <div key={i} className={`${s.lph} ${s.lm}`}>{item.name}</div>
-            ))}
+            {supportersData.items.map((item: Supporter, i: number) => {
+              const cls = `${s.lph} ${s.lm} ${item.bg ? bgClass[item.bg] : ''}`
+              const content = item.logo
+                ? <img src={item.logo} alt={item.name} className={s.limg} />
+                : item.name
+              return item.url
+                ? <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" className={cls} aria-label={item.name}>{content}</a>
+                : <div key={i} className={cls} aria-label={item.name}>{content}</div>
+            })}
           </div>
         ) : (
           <div className={`${s.lrow} rv`}>

@@ -56,8 +56,19 @@ export function Footer() {
               <li><Link to="/codigo-de-conduta">Código de Conduta</Link></li>
               <li><a href="mailto:contact@hekateinc.com">Contato</a></li>
             </ul>
-            <p className={s.ftOrg}>Fernando Guisso<br />Grupo Lune · Hekate</p>
           </nav>
+        </div>
+
+        <div className={s.ftOrgs}>
+          <span className={s.ftOrgsLabel}>Realização</span>
+          <div className={s.ftOrgsLogos}>
+            <a href="https://www.instagram.com/grupo.lune" target="_blank" rel="noopener noreferrer" aria-label="Grupo Lune" className={s.ftOrgLune}>
+              <img src="/org/lune-agencia.png" alt="Grupo Lune" className={s.ftOrgImg} />
+            </a>
+            <a href="https://www.hekateinc.com" target="_blank" rel="noopener noreferrer" aria-label="Hekate" className={s.ftOrgHekate}>
+              <img src="/org/Hekate-Inc.png" alt="Hekate" className={`${s.ftOrgImg} ${s.ftOrgImgColor}`} />
+            </a>
+          </div>
         </div>
 
         <div className={s.ftBot}>

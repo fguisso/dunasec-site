@@ -80,14 +80,23 @@
   clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 18px 100%, 0 calc(100% - 18px));
   overflow: hidden;
   background: var(--bk3);
+  aspect-ratio: 3/2;
 }
 
 .natalPhoto {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
-  aspect-ratio: 3/2;
+  height: 100%;
   object-fit: cover;
   filter: brightness(.75) saturate(.6);
+  opacity: 0;
+  transition: opacity .6s ease;
+}
+
+.natalPhotoActive {
+  opacity: 1;
 }
 
 /* overlay gradiente IDV sobre a foto */
@@ -120,7 +129,48 @@
   text-transform: uppercase;
   background: rgba(0,0,0,.6);
   padding: .25rem .6rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
 }
+
+/* botões prev/next */
+.carBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+  background: rgba(0,0,0,.55);
+  border: 1px solid var(--r25);
+  color: var(--wh);
+  font-size: 1.4rem;
+  line-height: 1;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .2s, border-color .2s;
+  padding: 0;
+}
+.carBtn:hover { background: var(--red); border-color: var(--red); }
+.carBtnL { left: .5rem; }
+.carBtnR { right: .5rem; }
+
+/* dots */
+.slideDots { display: flex; gap: .35rem; align-items: center; }
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--w45);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background .2s, transform .2s;
+}
+.dotActive { background: var(--red); transform: scale(1.3); }
 
 /* cantos HUD */
 .hudTl, .hudTr, .hudBl, .hudBr {
@@ -135,6 +185,27 @@
 .hudBl { bottom: 0; left: 0; border-bottom: 2px solid var(--red); border-left: 2px solid var(--red); }
 .hudBr { bottom: 0; right: 0; border-bottom: 2px solid var(--red); border-right: 2px solid var(--red); }
 
+
+/* crédito das fotos */
+.photoCredit {
+  margin-top: .6rem;
+  font-family: var(--mono);
+  font-size: .52rem;
+  letter-spacing: .08em;
+  color: var(--w45);
+  line-height: 1.6;
+  text-align: right;
+}
+
+.photoCredit a {
+  color: var(--w45);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.photoCredit a:hover { color: var(--wh); }
+
+.photoCredit span { color: var(--w45); }
 
 /* strip */
 .natalStrip {

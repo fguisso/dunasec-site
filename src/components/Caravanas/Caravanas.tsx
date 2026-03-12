@@ -30,7 +30,7 @@ export function Caravanas() {
             </p>
             <div className="rv d3" style={{ marginTop: '1.6rem' }}>
               <a href="https://forms.gle/dhybHr7LmwUWMWr57" target="_blank" rel="noopener" className="btn btn-out">
-                Quero participar de uma caravana
+                Quero organizar uma caravana
               </a>
             </div>
           </div>

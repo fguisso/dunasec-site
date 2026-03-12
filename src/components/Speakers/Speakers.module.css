@@ -1,11 +1,49 @@
-.spkG {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.2rem;
-  margin-bottom: 2.4rem;
+/* cabeçalho com título + botões */
+.spkHead {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  gap: 1rem;
 }
 
+.spkNav { display: flex; gap: .5rem; flex-shrink: 0; }
+
+.navBtn {
+  width: 36px;
+  height: 36px;
+  background: var(--bk3);
+  border: 1px solid var(--r25);
+  color: var(--wh);
+  font-size: 1.3rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .2s, border-color .2s;
+  padding: 0;
+}
+.navBtn:hover { background: var(--red); border-color: var(--red); }
+
+/* trilho do carousel */
+.spkTrack {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 2.4rem;
+  padding-bottom: .5rem;
+  /* esconde scrollbar mas mantém scroll funcional */
+  scrollbar-width: none;
+}
+.spkTrack::-webkit-scrollbar { display: none; }
+
+/* card */
 .spk {
+  flex: 0 0 calc(25% - .75rem);
   background: var(--bk3);
   border: 1px solid var(--w04);
   padding: 1.7rem 1rem;
@@ -14,6 +52,7 @@
   overflow: hidden;
   transition: border-color .25s, transform .25s;
   clip-path: polygon(0 0, calc(100% - 13px) 0, 100% 13px, 100% 100%, 0 100%);
+  scroll-snap-align: start;
 }
 
 .spk::before {
@@ -44,7 +83,10 @@
   font-weight: 700;
   background: var(--bk2);
   color: var(--wh);
+  overflow: hidden;
 }
+
+.spkAvImg { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
 
 .spkNm {
   font-family: var(--mono);
@@ -77,8 +119,6 @@
 .sbt { background: var(--r05); color: var(--red); border: 1px solid var(--r25); }
 .sbr { background: rgba(0, 255, 255, .04); color: var(--cyn); border: 1px solid rgba(0, 255, 255, .18); }
 
-.spkAvImg { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
-
 .spkCta { text-align: center; }
 .spkCta p {
   font-family: var(--mono);
@@ -89,6 +129,15 @@
 }
 .spkCta p::before { content: "// "; }
 
+@media (max-width: 1024px) {
+  .spk { flex: 0 0 calc(33.333% - .67rem); }
+}
+
 @media (max-width: 768px) {
-  .spkG { grid-template-columns: repeat(2, 1fr); }
+  .spk { flex: 0 0 calc(50% - .5rem); }
+  .spkHead { align-items: flex-start; }
+}
+
+@media (max-width: 480px) {
+  .spk { flex: 0 0 75%; }
 }

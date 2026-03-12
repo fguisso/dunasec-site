@@ -38,6 +38,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -83,6 +84,11 @@ body::after {
 section {
   padding: 5.5rem 0;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  section { padding: 3.5rem 0; }
+  .ctr { padding: 0 1.2rem; }
 }
 
 /* labels de seção — exato IDV */
