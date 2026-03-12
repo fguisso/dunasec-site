@@ -2,7 +2,7 @@ import supportersData from '../../data/supporters.json'
 import { useReveal } from '../../hooks/useReveal'
 import s from './Apoiadores.module.css'
 
-type Supporter = { name: string; logo?: string; url?: string | null; bg?: string | null }
+type Supporter = { name: string; logo?: string; url?: string | null; bg?: string | null; label?: string }
 
 const bgClass: Record<string, string> = { white: s.bgWhite, black: s.bgBlack }
 
@@ -22,9 +22,13 @@ export function Apoiadores() {
           <div className={`${s.lrow} rv`}>
             {supportersData.items.map((item: Supporter, i: number) => {
               const cls = `${s.lph} ${s.lm} ${item.bg ? bgClass[item.bg] : ''}`
-              const content = item.logo
-                ? <img src={item.logo} alt={item.name} className={s.limg} />
-                : item.name
+              const content = <>
+                {item.logo
+                  ? <img src={item.logo} alt={item.name} className={s.limg} />
+                  : item.name
+                }
+                {item.label && <span className={s.llabel}>{item.label}</span>}
+              </>
               return item.url
                 ? <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" className={cls} aria-label={item.name}>{content}</a>
                 : <div key={i} className={cls} aria-label={item.name}>{content}</div>
@@ -37,6 +41,13 @@ export function Apoiadores() {
             <div className={`${s.lph} ${s.lm}`}>APOIADOR</div>
           </div>
         )}
+
+        <div className={`${s.aereo} rv`}>
+          <span className={s.aereoLabel}>companhia aérea parceira</span>
+          <div className={`${s.lph} ${s.lm} ${s.bgWhite}`}>
+            <img src="/apoio/Latam - logo 1.jpg" alt="LATAM Airlines" className={s.limg} />
+          </div>
+        </div>
 
         <div className="rv" style={{ textAlign: 'center' }}>
           <p className={s.ctaText}>Quer apoiar o DunaSec?</p>
