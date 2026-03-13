@@ -47,7 +47,7 @@ export function Navbar() {
             <a href={sectionHref('#patrocinadores')} className={`btn btn-out ${s.hideOnMobile}`}>
               Seja Patrocinador
             </a>
-            <a href="https://sympla.com.br" target="_blank" rel="noopener" className="btn btn-red">
+            <a href="https://www.sympla.com.br/evento/dunasec-2026/3332895" target="_blank" rel="noopener" className="btn btn-red">
               Comprar Ingresso
             </a>
           </div>
@@ -69,7 +69,7 @@ export function Navbar() {
         <a href={sectionHref('#palestrantes')} onClick={closeMenu}>Palestrantes</a>
         <a href={sectionHref('#patrocinadores')} onClick={closeMenu}>Patrocinadores</a>
         <a
-          href="https://sympla.com.br"
+          href="https://www.sympla.com.br/evento/dunasec-2026/3332895"
           target="_blank"
           rel="noopener"
           className="btn btn-red btn-lg"

@@ -103,6 +103,14 @@
 }
 .lkOut:hover { border-color: var(--red); background: var(--r05); }
 
+.lkCyn {
+  background: transparent;
+  border-color: rgba(0,255,255,.25);
+  color: var(--cyn);
+}
+.lkCyn:hover { border-color: var(--cyn); background: rgba(0,255,255,.05); }
+.lkCyn .lkDesc { color: var(--wh); }
+
 .lkLabel {
   font-family: var(--mono);
   font-size: .78rem;

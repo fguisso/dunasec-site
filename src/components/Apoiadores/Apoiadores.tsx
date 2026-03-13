@@ -2,7 +2,7 @@ import supportersData from '../../data/supporters.json'
 import { useReveal } from '../../hooks/useReveal'
 import s from './Apoiadores.module.css'
 
-type Supporter = { name: string; logo?: string; url?: string | null; bg?: string | null; label?: string }
+type Supporter = { name: string; logo?: string; url?: string | null; bg?: string | null; invert?: boolean; label?: string }
 
 const bgClass: Record<string, string> = { white: s.bgWhite, black: s.bgBlack }
 
@@ -24,7 +24,7 @@ export function Apoiadores() {
               const cls = `${s.lph} ${s.lm} ${item.bg ? bgClass[item.bg] : ''}`
               const content = <>
                 {item.logo
-                  ? <img src={item.logo} alt={item.name} className={s.limg} />
+                  ? <img src={item.logo} alt={item.name} className={`${s.limg} ${item.invert ? s.limgInvert : ''}`} />
                   : item.name
                 }
                 {item.label && <span className={s.llabel}>{item.label}</span>}

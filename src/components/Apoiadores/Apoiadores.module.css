@@ -29,6 +29,7 @@
 .lm { width: 200px; height: 100px; }
 
 .limg { max-width: 160px; max-height: 80px; object-fit: contain; }
+.limgInvert { filter: invert(1); }
 
 .bgWhite { background: #fff; }
 .bgBlack { background: #000; }

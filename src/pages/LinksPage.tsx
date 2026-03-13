@@ -4,10 +4,16 @@ import s from './LinksPage.module.css'
 
 const links = [
   {
+    label: 'Comprar Ingresso',
+    description: 'Garanta sua vaga no DunaSec 2026',
+    href: 'https://www.sympla.com.br/evento/dunasec-2026/3332895',
+    variant: 'red',
+  },
+  {
     label: 'Seja Patrocinador',
     description: 'Leve sua marca ao DunaSec 2026',
     href: 'https://forms.gle/C8ceUqPmbshzd22SA',
-    variant: 'red',
+    variant: 'cyn',
   },
   {
     label: 'Apoiador / Comunidade',
@@ -40,7 +46,7 @@ export function LinksPage() {
         </Link>
 
         <p className={s.meta}>30 mai 2026 · Natal, RN</p>
-        <p className={s.desc}>O evento de cibersegurança nascido no coração do Nordeste.</p>
+        <p className={s.desc}>O novo evento de cibersegurança do Nordeste.</p>
 
         <div className={s.divider} />
 
@@ -51,7 +57,7 @@ export function LinksPage() {
               href={lk.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`${s.lkBtn} ${lk.variant === 'red' ? s.lkRed : s.lkOut}`}
+              className={`${s.lkBtn} ${lk.variant === 'red' ? s.lkRed : lk.variant === 'cyn' ? s.lkCyn : s.lkOut}`}
             >
               <span className={s.lkLabel}>{lk.label}</span>
               <span className={s.lkDesc}>{lk.description}</span>

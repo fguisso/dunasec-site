@@ -43,7 +43,7 @@ export function Footer() {
           <nav className={s.ftCol}>
             <h4>Participe</h4>
             <ul>
-              <li><a href="https://sympla.com.br" target="_blank" rel="noopener">Comprar Ingresso</a></li>
+              <li><a href="https://www.sympla.com.br/evento/dunasec-2026/3332895" target="_blank" rel="noopener">Comprar Ingresso</a></li>
               <li><a href="#caravanas">Caravanas</a></li>
               <li><a href="#voluntarios">Voluntários</a></li>
               <li><a href="#patrocinadores">Patrocínio</a></li>

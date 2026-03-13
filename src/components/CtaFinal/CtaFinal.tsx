@@ -15,7 +15,7 @@ export function CtaFinal() {
         <p className={`${s.sub} rv`}>// 30 de maio · Natal, RN · Vagas limitadas</p>
         <div className={`${s.ctaBtns} rv`}>
           <a
-            href="https://sympla.com.br"
+            href="https://www.sympla.com.br/evento/dunasec-2026/3332895"
             target="_blank"
             rel="noopener"
             className="btn btn-red btn-lg"

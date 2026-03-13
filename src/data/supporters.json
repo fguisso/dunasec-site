@@ -1,21 +1,133 @@
-{ "items": [
-  { "name": "SunSec",                  "logo": "/apoio/sunsec.png",                         "url": "https://sunsec.net",               "bg": null  },
-  { "name": "Mente Binária",           "logo": "/apoio/mente-binaria.png",                  "url": null,                               "bg": null  },
-  { "name": "BSides Brasília",         "logo": "/apoio/bsides bsb.png",                     "url": null,                               "bg": null  },
-  { "name": "Cyber Security Girls",   "logo": "/apoio/cyber security girls.png",            "url": null,                               "bg": null  },
-  { "name": "Garota C",               "logo": "/apoio/LogoGarotaC.png",                     "url": null,                               "bg": null  },
-  { "name": "SOC Brazil",             "logo": "/apoio/soc_brazil_png.png",                  "url": null,                               "bg": null  },
-  { "name": "25OHC",                  "logo": "/apoio/25OHCLOGO.png",                       "url": null,                               "bg": null  },
-  { "name": "APT Zé da Manga",        "logo": "/apoio/apt-ze-da-manga.png",                 "url": null,                               "bg": null  },
-  { "name": "Alquymia",               "logo": "/apoio/alquymia vf.png",                     "url": null,                               "bg": null  },
-  { "name": "3D Com Tech",            "logo": "/apoio/3d_com_tech_.png",                    "url": null,                               "bg": null  },
-  { "name": "Chapéu de Palha",        "logo": "/apoio/chapeu-de-palha.png",                 "url": null,                               "bg": null  },
-  { "name": "VP2",                    "logo": "/apoio/vp2_png.png",                         "url": null,                               "bg": null  },
-  { "name": "Quantum Village BR",     "logo": "/apoio/Logo_Quantum_Village_BR-02.png",      "url": null,                               "bg": "black" },
-  { "name": "Tramoia",               "logo": "/apoio/tramoia_logo.png",                    "url": "https://tramoia.sh",               "bg": "black" },
-  { "name": "Guia Anônima",           "logo": "/apoio/guia anonima.png",                    "url": null,                               "bg": "black" },
-  { "name": "Security is a Lifestyle","logo": "/apoio/security is a lifestyle.jpg",         "url": null,                               "bg": "black" },
-  { "name": "OxE HackerConf",         "logo": "/apoio/OxE HackerSpace OxE - PNG.png",      "url": "https://conference.oxehc.com.br/", "bg": "white" },
-  { "name": "Raul Hacker Club",       "logo": "/apoio/raul-hacker-club.png",                "url": "https://raulhc.cc/",               "bg": "white" },
-  { "name": "IT Show",                "logo": "/apoio/ITSHOW AMARELO-PRETO.png",            "url": null,                               "bg": "white" }
-]}
+{
+  "items": [
+    {
+      "name": "SunSec",
+      "logo": "/apoio/sunsec.png",
+      "url": "https://sunsec.net",
+      "bg": "white",
+      "invert": true
+    },
+    {
+      "name": "Mente Binária",
+      "logo": "/apoio/mente-binaria.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "BSides Brasília",
+      "logo": "/apoio/bsides bsb.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "Cyber Security Girls",
+      "logo": "/apoio/cyber security girls.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "Garota C",
+      "logo": "/apoio/LogoGarotaC.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "SOC Brazil",
+      "logo": "/apoio/soc_brazil_png.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "25OHC",
+      "logo": "/apoio/25OHCLOGO.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "APT Zé da Manga",
+      "logo": "/apoio/apt-ze-da-manga.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "Alquymia",
+      "logo": "/apoio/alquymia vf.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "3D Com Tech",
+      "logo": "/apoio/logo_3d_com_tech.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "Chapéu de Palha",
+      "logo": "/apoio/chapeu-de-palha.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "VP Turismo",
+      "logo": "/apoio/vp2_png.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "Quantum Village BR",
+      "logo": "/apoio/Logo_Quantum_Village_BR-02.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "Tramoia",
+      "logo": "/apoio/tramoia_logo.png",
+      "url": "https://tramoia.sh",
+      "bg": "white",
+      "invert": true
+    },
+    {
+      "name": "BxSec",
+      "logo": "/apoio/bxsec.png",
+      "url": null,
+      "bg": "white",
+      "invert": true
+    },
+    {
+      "name": "Guia Anônima",
+      "logo": "/apoio/guia anonima.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "Security is a Lifestyle",
+      "logo": "/apoio/Logo_Security_Lifestyle.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "OxE HackerConf",
+      "logo": "/apoio/OxE HackerSpace OxE - PNG.png",
+      "url": "https://conference.oxehc.com.br/",
+      "bg": "white"
+    },
+    {
+      "name": "Raul Hacker Club",
+      "logo": "/apoio/raul-hacker-club.png",
+      "url": "https://raulhc.cc/",
+      "bg": "white"
+    },
+    {
+      "name": "IT Show",
+      "logo": "/apoio/ITSHOW AMARELO-PRETO.png",
+      "url": null,
+      "bg": "white"
+    },
+    {
+      "name": "Pirate Ship",
+      "logo": "/apoio/pirate-ship.png",
+      "url": null,
+      "bg": "white"
+    }
+  ]
+}
