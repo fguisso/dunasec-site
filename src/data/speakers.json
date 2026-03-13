@@ -1,8 +1,83 @@
 [
-  { "id": "ak", "name": "Allan Kardec", "initials": "AK", "role": "Tech Leader AppSec", "company": "Hakai Security", "track": "tecnica", "photo": "/speakers/ak.jpeg" },
-  { "id": "cn", "name": "Clara Nobre", "initials": "CN", "role": "Cloud Security Architect", "company": "PicPay", "track": "tecnica", "photo": "/speakers/cn.jpeg" },
-  { "id": "cl", "name": "Caio Lüders", "initials": "CL", "role": "Security Researcher", "company": "ElectroVolt / Cure53", "track": "tecnica", "photo": "/speakers/caio.jpeg" },
-  { "id": "ac", "name": "Anderson Cirilo", "initials": "AC", "role": "Threat Intel Analyst", "company": "Mercado Livre", "track": "tecnica", "photo": "/speakers/cirilo.jpeg" },
-  { "id": "jm", "name": "Jonathas Melo", "initials": "JM", "role": "AppSec Specialist", "company": "PicPay", "track": "tecnica", "photo": "/speakers/jm.jpeg" },
-  { "id": "kn", "name": "Kali Nathalie", "initials": "KN", "role": "Offensive Security Analyst", "company": "Arancia", "track": "tecnica", "photo": "/speakers/kn.jpeg" }
+  {
+    "id": "cn",
+    "name": "Clara Nobre",
+    "initials": "CN",
+    "role": "Cloud Security Architect",
+    "company": "PicPay",
+    "track": "tecnica",
+    "photo": "/speakers/cn.jpeg"
+  },
+  {
+    "id": "ak",
+    "name": "Allan Kardec",
+    "initials": "AK",
+    "role": "Tech Leader AppSec",
+    "company": "Hakai Security",
+    "track": "tecnica",
+    "photo": "/speakers/ak.jpeg"
+  },
+  {
+    "id": "ef",
+    "name": "Erika Finoti",
+    "initials": "EF",
+    "role": "Cyber Security Analyst",
+    "company": "Azul Airlines",
+    "track": "tecnica",
+    "photo": "/speakers/erika.jpeg"
+  },
+  {
+    "id": "cl",
+    "name": "Caio Lüders",
+    "initials": "CL",
+    "role": "Security Researcher",
+    "company": "ElectroVolt / Cure53",
+    "track": "tecnica",
+    "photo": "/speakers/caio.jpeg"
+  },
+  {
+    "id": "kn",
+    "name": "Kali Nathalie",
+    "initials": "KN",
+    "role": "Offensive Security Analyst",
+    "company": "Arancia",
+    "track": "tecnica",
+    "photo": "/speakers/kn.jpeg"
+  },
+  {
+    "id": "ac",
+    "name": "Anderson Cirilo",
+    "initials": "AC",
+    "role": "Cyber Security Engineer",
+    "company": "Mercado Livre",
+    "track": "tecnica",
+    "photo": "/speakers/cirilo.jpeg"
+  },
+  {
+    "id": "hc",
+    "name": "Helena Carreço",
+    "initials": "HC",
+    "role": "Security Researcher",
+    "company": "Independent",
+    "track": "tecnica",
+    "photo": "/speakers/helena.jpeg"
+  },
+  {
+    "id": "jm",
+    "name": "Jonathas Melo",
+    "initials": "JM",
+    "role": "Redteam Specialist",
+    "company": "PicPay",
+    "track": "tecnica",
+    "photo": "/speakers/jm.jpeg"
+  },
+  {
+    "id": "nc",
+    "name": "Noilson Caio",
+    "initials": "NC",
+    "role": "Cyber Security Consultant",
+    "company": "B3",
+    "track": "tecnica",
+    "photo": "/speakers/noilson.jpeg"
+  }
 ]

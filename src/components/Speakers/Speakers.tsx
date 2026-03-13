@@ -3,26 +3,37 @@ import speakersData from '../../data/speakers.json'
 import { useReveal } from '../../hooks/useReveal'
 import s from './Speakers.module.css'
 
+// duplica para criar ilusão de loop infinito
+const doubled = [...speakersData, ...speakersData]
+
 export function Speakers() {
   const ref = useReveal()
   const trackRef = useRef<HTMLDivElement>(null)
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
 
+  // reset silencioso: quando passa da metade, volta instantaneamente
+  const resetIfNeeded = useCallback(() => {
+    const el = trackRef.current
+    if (!el) return
+    const half = el.scrollWidth / 2
+    if (el.scrollLeft >= half) {
+      el.style.scrollBehavior = 'auto'
+      el.scrollLeft -= half
+      el.offsetHeight // force reflow
+      el.style.scrollBehavior = ''
+    }
+  }, [])
+
   const scroll = useCallback((dir: 1 | -1) => {
     const el = trackRef.current
     if (!el) return
     const card = el.querySelector('article') as HTMLElement
-    const step = card.offsetWidth + 16
-    // se chegou no fim, volta ao início
-    if (dir === 1 && el.scrollLeft + el.clientWidth >= el.scrollWidth - 4) {
-      el.scrollTo({ left: 0, behavior: 'smooth' })
-    } else {
-      el.scrollBy({ left: dir * step, behavior: 'smooth' })
-    }
-  }, [])
+    el.scrollBy({ left: dir * (card.offsetWidth + 16), behavior: 'smooth' })
+    setTimeout(resetIfNeeded, 450)
+  }, [resetIfNeeded])
 
   const startAuto = useCallback(() => {
-    timerRef.current = setInterval(() => scroll(1), 3000)
+    timerRef.current = setInterval(() => scroll(1), 5000)
   }, [scroll])
 
   const stopAuto = useCallback(() => {
@@ -50,8 +61,8 @@ export function Speakers() {
         </div>
 
         <div className={s.spkTrack} ref={trackRef} onMouseEnter={stopAuto} onMouseLeave={startAuto}>
-          {speakersData.map((speaker) => (
-            <article key={speaker.id} className={s.spk}>
+          {doubled.map((speaker, i) => (
+            <article key={`${speaker.id}-${i}`} className={s.spk}>
               <div className={s.spkAv}>
                 {speaker.photo
                   ? <img src={speaker.photo} alt={speaker.name} className={s.spkAvImg} />
@@ -59,7 +70,7 @@ export function Speakers() {
                 }
               </div>
               <p className={s.spkNm}>{speaker.name}</p>
-              {speaker.role  && <p className={s.spkRl}>{speaker.role}</p>}
+              {speaker.role    && <p className={s.spkRl}>{speaker.role}</p>}
               {speaker.company && <p className={s.spkCo}>{speaker.company}</p>}
               <span className={`${s.spkB} ${speaker.track === 'tecnica' ? s.sbt : s.sbr}`}>
                 {speaker.track === 'tecnica' ? 'Técnica' : 'Gerencial'}
