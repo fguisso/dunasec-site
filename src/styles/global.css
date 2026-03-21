@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Exo+2:wght@300;400;600;700&display=swap');
+/* Fontes carregadas via <link> no index.html para melhor performance */
 
 /* ─────────────────────────────────────────
    PALETA IDV — não inventar cores novas
@@ -89,6 +89,10 @@ section {
 @media (max-width: 768px) {
   section { padding: 3.5rem 0; }
   .ctr { padding: 0 1.2rem; }
+  /* 3.1 — touch targets e fontes mínimas para mobile */
+  .ey     { font-size: .72rem; }
+  .btn    { min-height: 3rem; font-size: .78rem; }
+  .btn-lg { font-size: .82rem; }
 }
 
 /* labels de seção — exato IDV */

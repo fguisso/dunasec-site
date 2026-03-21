@@ -31,7 +31,7 @@ export function Natal() {
   return (
     <section id="natal" aria-labelledby="natal-h2" ref={ref}>
       <div className={s.natalWrap}>
-        <img className={s.natalCirc} src={circuitCyan} alt="" aria-hidden="true" />
+        <img className={s.natalCirc} src={circuitCyan} alt="" aria-hidden="true" loading="lazy" />
         <div className={s.natalGlow} aria-hidden="true" />
 
         <div className={`${s.natalText} rv`}>
@@ -77,6 +77,7 @@ export function Natal() {
                 src={sl.src}
                 alt={sl.caption}
                 className={`${s.natalPhoto} ${i === cur ? s.natalPhotoActive : ''}`}
+                loading="lazy"
               />
             ))}
 

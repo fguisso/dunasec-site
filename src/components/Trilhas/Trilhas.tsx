@@ -19,7 +19,7 @@ export function Trilhas() {
           {/* Técnica — PRIMEIRO — vermelho */}
           <article className={`${s.trilha} ${s.tech} rv d1`}>
             <div className={s.tcCorner} />
-            <img className={s.trilhaCirc} src={circuitRed} alt="" aria-hidden="true" />
+            <img className={s.trilhaCirc} src={circuitRed} alt="" aria-hidden="true" loading="lazy" />
             <span className={`${s.tbadge} ${s.badgeTech}`}>Trilha Técnica</span>
             <h3>Trilha Técnica</h3>
             <p>
@@ -37,7 +37,7 @@ export function Trilhas() {
           {/* Gerencial — SEGUNDO — ciano */}
           <article className={`${s.trilha} ${s.ger} rv d2`}>
             <div className={s.tcCorner} />
-            <img className={s.trilhaCirc} src={circuitCyan} alt="" aria-hidden="true" />
+            <img className={s.trilhaCirc} src={circuitCyan} alt="" aria-hidden="true" loading="lazy" />
             <span className={`${s.tbadge} ${s.badgeGer}`}>Trilha Gerencial</span>
             <h3>Trilha Gerencial</h3>
             <p>

@@ -65,7 +65,7 @@ export function Speakers() {
             <article key={`${speaker.id}-${i}`} className={s.spk}>
               <div className={s.spkAv}>
                 {speaker.photo
-                  ? <img src={speaker.photo} alt={speaker.name} className={s.spkAvImg} />
+                  ? <img src={speaker.photo} alt={speaker.name} className={s.spkAvImg} loading="lazy" />
                   : speaker.initials
                 }
               </div>

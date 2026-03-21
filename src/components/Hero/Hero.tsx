@@ -16,6 +16,7 @@ export function Hero() {
       <div className={s.hG2} aria-hidden="true" />
 
       <div className={s.heroIn}>
+        <h1 className={s.srOnly}>DunaSec 2026 — Conferência de Cibersegurança do Nordeste</h1>
         <p className={s.hTag}>01ª Edição &nbsp;·&nbsp; 2026</p>
         <div className={s.hLogo}>
           <img src={logoImg} alt="DunaSec" />
@@ -44,19 +45,19 @@ export function Hero() {
         <p className={s.cdEy}>// Faltam para o evento</p>
         <div className={s.cd} role="timer">
           <div className={s.cdu}>
-            <span className={s.cdn}>{days}</span>
+            <span className={s.cdn} suppressHydrationWarning>{days}</span>
             <span className={s.cdl}>Dias</span>
           </div>
           <div className={s.cdu}>
-            <span className={s.cdn}>{hours}</span>
+            <span className={s.cdn} suppressHydrationWarning>{hours}</span>
             <span className={s.cdl}>Horas</span>
           </div>
           <div className={s.cdu}>
-            <span className={s.cdn}>{minutes}</span>
+            <span className={s.cdn} suppressHydrationWarning>{minutes}</span>
             <span className={s.cdl}>Min</span>
           </div>
           <div className={s.cdu}>
-            <span className={s.cdn}>{seconds}</span>
+            <span className={s.cdn} suppressHydrationWarning>{seconds}</span>
             <span className={s.cdl}>Seg</span>
           </div>
         </div>

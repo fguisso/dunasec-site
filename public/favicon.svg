@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="3" fill="#000"/>
+  <!--
+    D desenhado com bezier cúbico (sem fonte externa):
+    Outer: viga esquerda + topo + curva direita + base
+    Inner: recorte interno (fill-rule evenodd cria o vazio)
+  -->
+  <path
+    fill-rule="evenodd"
+    fill="#FF0040"
+    d="M7,5 H17 C27,5 27,27 17,27 H7 Z
+       M11,10 V22 H17 C22,22 22,10 17,10 Z"
+  />
+</svg>

@@ -24,7 +24,7 @@ export function Apoiadores() {
               const cls = `${s.lph} ${s.lm} ${item.bg ? bgClass[item.bg] : ''}`
               const content = <>
                 {item.logo
-                  ? <img src={item.logo} alt={item.name} className={`${s.limg} ${item.invert ? s.limgInvert : ''}`} />
+                  ? <img src={item.logo} alt={item.name} className={`${s.limg} ${item.invert ? s.limgInvert : ''}`} loading="lazy" />
                   : item.name
                 }
                 {item.label && <span className={s.llabel}>{item.label}</span>}
@@ -45,7 +45,7 @@ export function Apoiadores() {
         <div className={`${s.aereo} rv`}>
           <span className={s.aereoLabel}>companhia aérea parceira</span>
           <div className={`${s.lph} ${s.lm} ${s.bgWhite}`}>
-            <img src="/apoio/Latam - logo 1.jpg" alt="LATAM Airlines" className={s.limg} />
+            <img src="/apoio/Latam - logo 1.jpg" alt="LATAM Airlines" className={s.limg} loading="lazy" />
           </div>
         </div>
 

@@ -40,7 +40,7 @@ export function Sobre() {
           <div className={`${s.sobreVis} rv`}>
             <div className={s.mark}>
               <div className={s.markGlow} />
-              <img src={logoMarkImg} alt="DunaSec" />
+              <img src={logoMarkImg} alt="DunaSec" loading="lazy" />
             </div>
           </div>
         </div>
