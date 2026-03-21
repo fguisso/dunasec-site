@@ -42,11 +42,11 @@ export function Patrocinadores() {
                   ? tier.items.map((item: { name: string; logo?: string; url?: string }, i: number) =>
                       item.url ? (
                         <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" className={`${s.lph} ${size}`}>
-                          {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} /> : item.name}
+                          {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} loading="lazy" /> : item.name}
                         </a>
                       ) : (
                         <div key={i} className={`${s.lph} ${size}`}>
-                          {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} /> : item.name}
+                          {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} loading="lazy" /> : item.name}
                         </div>
                       )
                     )

@@ -9,7 +9,7 @@ export function Footer() {
         <div className={s.ftG}>
           <div className={s.ftBrand}>
             <Link to="/">
-              <img src={logoImg} alt="DunaSec" className={s.ftLogo} />
+              <img src={logoImg} alt="DunaSec" className={s.ftLogo} loading="lazy" />
             </Link>
             <p>O evento de cibersegurança nascido no coração do Nordeste. 30 de maio de 2026, Natal, RN.</p>
             <div className={s.socials}>
@@ -63,10 +63,10 @@ export function Footer() {
           <span className={s.ftOrgsLabel}>Realização</span>
           <div className={s.ftOrgsLogos}>
             <a href="https://www.instagram.com/grupo.lune" target="_blank" rel="noopener noreferrer" aria-label="Grupo Lune" className={s.ftOrgLune}>
-              <img src="/org/lune-agencia.png" alt="Grupo Lune" className={s.ftOrgImg} />
+              <img src="/org/lune-agencia.png" alt="Grupo Lune" className={s.ftOrgImg} loading="lazy" />
             </a>
             <a href="https://www.hekateinc.com" target="_blank" rel="noopener noreferrer" aria-label="Hekate" className={s.ftOrgHekate}>
-              <img src="/org/Hekate-Inc.png" alt="Hekate" className={`${s.ftOrgImg} ${s.ftOrgImgColor}`} />
+              <img src="/org/Hekate-Inc.png" alt="Hekate" className={`${s.ftOrgImg} ${s.ftOrgImgColor}`} loading="lazy" />
             </a>
           </div>
         </div>

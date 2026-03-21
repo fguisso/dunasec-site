@@ -101,5 +101,7 @@
 @media (max-width: 768px) {
   .navLinks { display: none; }
   .navCtas .hideOnMobile { display: none; }
-  .hbg { display: flex; }
+  /* 3.1 — hamburger e links do menu mobile com touch target ≥ 48px */
+  .hbg { display: flex; min-width: 3rem; min-height: 3rem; align-items: center; justify-content: center; }
+  .mob a:not(.btn) { min-height: 3rem; display: flex; align-items: center; padding: 0 1rem; }
 }

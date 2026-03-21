@@ -1,0 +1,24 @@
+# DunaSec 2026
+
+> Conferência de cibersegurança do Nordeste brasileiro
+
+DunaSec é um evento anual de cibersegurança realizado em Natal, Rio Grande do Norte, Brasil. O evento reúne profissionais, estudantes e gestores de TI em trilhas Técnica e Gerencial cobrindo ethical hacking, segurança da informação, cloud security e privacidade de dados.
+
+## Informações do Evento
+
+- Data: 30 de Maio de 2026
+- Local: Natal, RN, Brasil
+- Formato: Presencial — aproximadamente 250 participantes
+- Trilhas: Técnica e Gerencial (simultâneas)
+- Site: https://dunasec.com.br
+- Ingressos: https://www.sympla.com.br/evento/dunasec-2026/3332895
+
+## Organizadores
+
+- DunaSec Eventos e Treinamentos LTDA
+- Realização: Grupo Lune e Hekate
+- Contato: contact@hekateinc.com
+
+## Sobre o Evento
+
+DunaSec é o novo evento de cibersegurança do Nordeste, criado para democratizar o acesso ao conhecimento em segurança da informação na região. A primeira edição acontece em 30 de maio de 2026, em Natal (RN), com duas trilhas simultâneas para atender tanto profissionais técnicos quanto gestores e tomadores de decisão.

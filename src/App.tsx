@@ -23,11 +23,13 @@ export function App() {
     <>
       <ScrollToTop />
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/codigo-de-conduta" element={<CodigoDeCondutaPage />} />
-        <Route path="/links" element={<LinksPage />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/codigo-de-conduta" element={<CodigoDeCondutaPage />} />
+          <Route path="/links" element={<LinksPage />} />
+        </Routes>
+      </main>
       {isHome && <Footer />}
     </>
   )
