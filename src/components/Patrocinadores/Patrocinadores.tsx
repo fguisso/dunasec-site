@@ -28,7 +28,7 @@ export function Patrocinadores() {
           <div className="rule" />
         </div>
 
-        {sponsorsData.map((tier) => {
+        {sponsorsData.filter((tier) => tier.items.length > 0).map((tier) => {
           const colors = colorMap[tier.tier]
           const size = sizeMap[tier.tier]
           return (
@@ -38,24 +38,17 @@ export function Patrocinadores() {
                 <div className={`${s.tierLn} ${colors.ln}`} />
               </div>
               <div className={s.lrow}>
-                {tier.items.length > 0
-                  ? tier.items.map((item: { name: string; logo?: string; url?: string }, i: number) =>
-                      item.url ? (
-                        <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" className={`${s.lph} ${size}`}>
-                          {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} loading="lazy" /> : item.name}
-                        </a>
-                      ) : (
-                        <div key={i} className={`${s.lph} ${size}`}>
-                          {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} loading="lazy" /> : item.name}
-                        </div>
-                      )
-                    )
-                  : Array.from({ length: tier.slots }).map((_, i) => (
-                      <div key={i} className={`${s.lph} ${size}`}>
-                        {tier.label.toUpperCase()}
-                      </div>
-                    ))
-                }
+                {tier.items.map((item: { name: string; logo?: string; url?: string }, i: number) =>
+                  item.url ? (
+                    <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" className={`${s.lph} ${size}`}>
+                      {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} loading="lazy" /> : item.name}
+                    </a>
+                  ) : (
+                    <div key={i} className={`${s.lph} ${size}`}>
+                      {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} loading="lazy" /> : item.name}
+                    </div>
+                  )
+                )}
               </div>
             </div>
           )
