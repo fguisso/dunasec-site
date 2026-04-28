@@ -52,17 +52,21 @@
 .lph:hover { border-color: var(--r25); }
 
 .limg { max-width: 80%; max-height: 60%; object-fit: contain; }
+.limgInvert { filter: invert(1); }
 
-.lg { width: 185px; height: 80px; }
-.lm { width: 148px; height: 68px; }
-.ls { width: 118px; height: 55px; }
-.lx { width: 96px; height: 46px; }
+.bgWhite { background: #fff; }
+.bgBlack { background: #000; }
+
+.lg { width: 320px; height: 150px; }
+.lm { width: 250px; height: 118px; }
+.ls { width: 200px; height: 94px; }
+.lx { width: 160px; height: 75px; }
 
 @media (max-width: 480px) {
-  .lg { width: calc(50% - .4rem); height: 70px; }
-  .lm { width: calc(50% - .4rem); height: 60px; }
-  .ls { width: calc(33% - .5rem); height: 52px; }
-  .lx { width: calc(33% - .5rem); height: 44px; }
+  .lg { width: calc(50% - .4rem); height: 110px; }
+  .lm { width: calc(50% - .4rem); height: 95px; }
+  .ls { width: calc(50% - .4rem); height: 80px; }
+  .lx { width: calc(50% - .4rem); height: 68px; }
   .patCta { padding: 1.6rem 1.2rem; }
   .patCta h3 { font-size: .85rem; }
 }

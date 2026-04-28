@@ -38,17 +38,18 @@ export function Patrocinadores() {
                 <div className={`${s.tierLn} ${colors.ln}`} />
               </div>
               <div className={s.lrow}>
-                {tier.items.map((item: { name: string; logo?: string; url?: string }, i: number) =>
-                  item.url ? (
-                    <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" className={`${s.lph} ${size}`}>
-                      {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} loading="lazy" /> : item.name}
-                    </a>
+                {tier.items.map((item: { name: string; logo?: string; url?: string; bg?: string; invert?: boolean }, i: number) => {
+                  const bgCls = item.bg === 'white' ? s.bgWhite : item.bg === 'black' ? s.bgBlack : ''
+                  const cls = `${s.lph} ${size} ${bgCls}`
+                  const img = item.logo
+                    ? <img src={item.logo} alt={item.name} className={`${s.limg} ${item.invert ? s.limgInvert : ''}`} loading="lazy" />
+                    : item.name
+                  return item.url ? (
+                    <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" className={cls}>{img}</a>
                   ) : (
-                    <div key={i} className={`${s.lph} ${size}`}>
-                      {item.logo ? <img src={item.logo} alt={item.name} className={s.limg} loading="lazy" /> : item.name}
-                    </div>
+                    <div key={i} className={cls}>{img}</div>
                   )
-                )}
+                })}
               </div>
             </div>
           )
