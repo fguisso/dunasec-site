@@ -10,19 +10,19 @@
     {
       "name": "Mente Binária",
       "logo": "/apoio/mente-binaria.png",
-      "url": null,
+      "url": "https://www.mentebinaria.com.br",
       "bg": "white"
     },
     {
       "name": "BSides Brasília",
       "logo": "/apoio/bsides bsb.png",
-      "url": null,
+      "url": "https://bsidesbsb.com/",
       "bg": "white"
     },
     {
       "name": "Cyber Security Girls",
       "logo": "/apoio/cyber security girls.png",
-      "url": null,
+      "url": "https://cybersecuritygirlsbr.com/",
       "bg": "white"
     },
     {
@@ -34,7 +34,7 @@
     {
       "name": "SOC Brazil",
       "logo": "/apoio/soc_brazil_png.png",
-      "url": null,
+      "url": "https://socbrazil.com/",
       "bg": "white"
     },
     {
@@ -46,13 +46,13 @@
     {
       "name": "APT Zé da Manga",
       "logo": "/apoio/apt-ze-da-manga.png",
-      "url": null,
+      "url": "https://www.instagram.com/aptzedamanga/",
       "bg": "white"
     },
     {
       "name": "Alquymia",
       "logo": "/apoio/alquymia vf.png",
-      "url": null,
+      "url": "https://alquymia.com.br/",
       "bg": "white"
     },
     {
@@ -64,7 +64,7 @@
     {
       "name": "Chapéu de Palha",
       "logo": "/apoio/chapeu-de-palha.png",
-      "url": null,
+      "url": "https://chapeudepalhahacker.club/",
       "bg": "white"
     },
     {
@@ -89,7 +89,7 @@
     {
       "name": "BxSec",
       "logo": "/apoio/bxsec.png",
-      "url": null,
+      "url": "https://bxsec.org/",
       "bg": "white",
       "invert": true
     },
@@ -102,7 +102,7 @@
     {
       "name": "Security is a Lifestyle",
       "logo": "/apoio/Logo_Security_Lifestyle.png",
-      "url": null,
+      "url": "https://www.securityisalifestyle.com.br/",
       "bg": "white"
     },
     {
@@ -120,13 +120,31 @@
     {
       "name": "IT Show",
       "logo": "/apoio/ITSHOW AMARELO-PRETO.png",
-      "url": null,
+      "url": "https://itshow.com.br/",
       "bg": "white"
     },
     {
       "name": "Pirate Ship",
       "logo": "/apoio/pirate-ship.png",
-      "url": null,
+      "url": "https://www.instagram.com/pirateship.sh/",
+      "bg": "white"
+    },
+    {
+      "name": "GDG Natal",
+      "logo": "/apoio/gdgnatal.png",
+      "url": "https://gdg.community.dev/gdg-natal/",
+      "bg": "white"
+    },
+    {
+      "name": "Jerimum Valley",
+      "logo": "/apoio/logo-jerimum-valley-2.svg",
+      "url": "https://jerimumvalley.com.br/",
+      "bg": "white"
+    },
+    {
+      "name": "PyData Natal",
+      "logo": "/apoio/logo_pydata.jpg",
+      "url": "https://www.instagram.com/pydatanatal/",
       "bg": "white"
     }
   ]
