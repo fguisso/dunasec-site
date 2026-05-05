@@ -3,10 +3,12 @@ import { Natal } from '../components/Natal/Natal'
 import { Sobre } from '../components/Sobre/Sobre'
 import { Trilhas } from '../components/Trilhas/Trilhas'
 import { Speakers } from '../components/Speakers/Speakers'
+import { Localizacao } from '../components/Localizacao/Localizacao'
 import { Apoiadores } from '../components/Apoiadores/Apoiadores'
 import { Patrocinadores } from '../components/Patrocinadores/Patrocinadores'
 import { Caravanas } from '../components/Caravanas/Caravanas'
 import { Voluntarios } from '../components/Voluntarios/Voluntarios'
+import { Faq } from '../components/Faq/Faq'
 import { CtaFinal } from '../components/CtaFinal/CtaFinal'
 
 export function Home() {
@@ -19,9 +21,11 @@ export function Home() {
       <Speakers />
       <Patrocinadores />
       <Apoiadores />
+      <Localizacao />
       <Caravanas />
       <Voluntarios />
-<CtaFinal />
+      <Faq />
+      <CtaFinal />
     </>
   )
 }
