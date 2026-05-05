@@ -7,7 +7,7 @@ DunaSec é um evento anual de cibersegurança realizado em Natal, Rio Grande do 
 ## Informações do Evento
 
 - Data: 30 de Maio de 2026
-- Local: Natal, RN, Brasil
+- Local: Hotel Escola Senac Barreira Roxa — Via Costeira Senador Dinarte Mariz, 4002, Parque das Dunas, Natal, RN, Brasil
 - Formato: Presencial — aproximadamente 250 participantes
 - Trilhas: Técnica e Gerencial (simultâneas)
 - Site: https://dunasec.com.br

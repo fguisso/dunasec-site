@@ -29,7 +29,7 @@ export function Hero() {
           <span className={s.dot} />
           <span>30 de Maio de 2026</span>
           <span className={s.dot} />
-          <span>Natal, RN</span>
+          <span>Hotel Barreira Roxa · Natal, RN</span>
           <span className={s.dot} />
           <span>Evento Presencial · 250 participantes</span>
         </div>

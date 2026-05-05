@@ -28,54 +28,122 @@
 }
 .localEy::before { content: "// "; }
 
-.localAddr p { color: var(--w70); font-size: .88rem; }
+.localAddr p { color: var(--w70); font-size: .88rem; line-height: 1.65; }
 
 .localFr {
   position: relative;
-  border: 1px solid var(--r25);
-  overflow: hidden;
-  clip-path: polygon(0 0, calc(100% - 17px) 0, 100% 17px, 100% 100%, 17px 100%, 0 calc(100% - 17px));
 }
 
-.localPh {
-  width: 100%;
-  aspect-ratio: 4/3;
+.carousel {
+  position: relative;
+  border: 1px solid var(--r25);
+  clip-path: polygon(0 0, calc(100% - 17px) 0, 100% 17px, 100% 100%, 17px 100%, 0 calc(100% - 17px));
+  overflow: hidden;
   background: var(--bk3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: .8rem;
+  aspect-ratio: 4/3;
+}
+
+.localPhoto {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(.78) saturate(.7);
+  opacity: 0;
+  transition: opacity .6s ease;
+}
+
+.localPhotoActive { opacity: 1; }
+
+.carousel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.15) 0%, rgba(255,0,64,.06) 50%, rgba(0,0,0,.55) 100%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .lhud {
   position: absolute;
   width: 13px;
   height: 13px;
+  z-index: 3;
+  pointer-events: none;
 }
 .lhud.tl { top: 0; left: 0; border-top: 2px solid var(--red); border-left: 2px solid var(--red); }
 .lhud.tr { top: 0; right: 0; border-top: 2px solid var(--red); border-right: 2px solid var(--red); }
 .lhud.bl { bottom: 0; left: 0; border-bottom: 2px solid var(--red); border-left: 2px solid var(--red); }
 .lhud.br { bottom: 0; right: 0; border-bottom: 2px solid var(--red); border-right: 2px solid var(--red); }
 
-.localCoord {
+.slideCaption {
   position: absolute;
-  bottom: .65rem;
-  left: .65rem;
-  font-family: var(--mono);
-  font-size: .54rem;
-  color: var(--red);
-  background: rgba(0, 0, 0, .85);
-  padding: .22rem .5rem;
-  letter-spacing: .08em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: .75rem 1rem;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.phLabel {
+.slideName {
   font-family: var(--mono);
-  font-size: .6rem;
-  letter-spacing: .18em;
+  font-size: .62rem;
+  color: var(--wh);
+  letter-spacing: .1em;
   text-transform: uppercase;
-  color: var(--w20);
+  background: rgba(0,0,0,.6);
+  padding: .25rem .6rem;
+}
+
+.carBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 4;
+  background: rgba(0,0,0,.55);
+  border: 1px solid var(--r25);
+  color: var(--wh);
+  font-size: 1.4rem;
+  line-height: 1;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .2s, border-color .2s;
+  padding: 0;
+}
+.carBtn:hover { background: var(--red); border-color: var(--red); }
+.carBtnL { left: .5rem; }
+.carBtnR { right: .5rem; }
+
+.slideDots { display: flex; gap: .35rem; align-items: center; }
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--w45);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background .2s, transform .2s;
+}
+.dotActive { background: var(--red); transform: scale(1.3); }
+
+.localCoord {
+  display: block;
+  margin-top: .6rem;
+  font-family: var(--mono);
+  font-size: .54rem;
+  color: var(--w45);
+  letter-spacing: .12em;
+  text-align: right;
 }
 
 @media (max-width: 768px) {
