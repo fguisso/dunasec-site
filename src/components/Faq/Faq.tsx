@@ -21,7 +21,7 @@ export function Faq() {
 
         <div className={s.faqList}>
           {faqData.map((item, i) => (
-            <div key={i} className={`${s.faqItem} rv${openIndex === i ? ' ' + s.open : ''}`}>
+            <div key={i} className={`${s.faqItem}${openIndex === i ? ' ' + s.open : ''}`}>
               <button
                 className={s.faqQ}
                 onClick={() => toggle(i)}
@@ -35,12 +35,6 @@ export function Faq() {
                   <>
                     Sim. Acesse nosso{' '}
                     <Link to="/codigo-de-conduta">Código de Conduta completo</Link> para mais informações.
-                  </>
-                ) : item.q === 'Como me tornar patrocinador?' ? (
-                  <>
-                    Envie um e-mail para{' '}
-                    <a href="mailto:contact@hekateinc.com">contact@hekateinc.com</a>.
-                    {' '}Tiers disponíveis: Platina (R$ 15.000), Ouro (R$ 10.000), Prata (R$ 6.000) e Bronze (R$ 3.000).
                   </>
                 ) : (
                   item.a

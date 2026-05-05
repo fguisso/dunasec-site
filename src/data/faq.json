@@ -1,10 +1,10 @@
 [
   { "q": "Como compro meu ingresso?", "a": "Os ingressos estão disponíveis no Sympla. Clique em \"Comprar Ingresso\" no topo da página." },
   { "q": "O evento emite certificado?", "a": "Sim, todos os participantes receberão certificado digital de participação após o evento." },
-  { "q": "Haverá transmissão online?", "a": "O DunaSec 2026 é primariamente presencial. Informações sobre transmissão serão divulgadas nas redes sociais conforme definição da organização." },
-  { "q": "Como funciona o credenciamento?", "a": "O credenciamento começa às 8h no local do evento. Apresente seu QR Code do Sympla ou documento de identidade com foto." },
-  { "q": "Posso levar notebook?", "a": "Sim — especialmente recomendado para as atividades técnicas e para fazer anotações durante as palestras." },
-  { "q": "Quais são as trilhas?", "a": "Trilha Gerencial — para C-Levels e gestores — e Trilha Técnica, para desenvolvedores, analistas e estudantes. Ambas ocorrem simultaneamente." },
-  { "q": "Como me tornar patrocinador?", "a": "Envie um e-mail para contact@hekateinc.com. Tiers disponíveis: Platina (R$ 15.000), Ouro (R$ 10.000), Prata (R$ 6.000) e Bronze (R$ 3.000)." },
+  { "q": "Haverá transmissão online?", "a": "Não. O DunaSec 2026 é exclusivamente presencial." },
+  { "q": "Como funciona o credenciamento?", "a": "O credenciamento começa às 9h no local do evento. Apresente seu QR Code do Sympla ou documento de identidade com foto. Estudantes precisam apresentar carteira de estudante ou comprovante de vínculo com a universidade." },
+  { "q": "Tem estacionamento no local?", "a": "Sim, o Hotel Barreira Roxa oferece estacionamento gratuito para os participantes do evento." },
+  { "q": "Vai ter almoço no evento?", "a": "O evento não oferece almoço, mas haverá uma pausa de 12h40 para refeição. O próprio Hotel Barreira Roxa tem restaurante à la carte; a 5 minutos a pé fica o Tábua de Carne e demais restaurantes de Ponta Negra; e há mais opções em Petrópolis a cerca de 10 minutos de Uber." },
+  { "q": "Posso levar notebook?", "a": "Sim, você pode levar seu equipamento para fazer anotações ou para atividades como o CTF. A organização não se responsabiliza por equipamentos e demais itens dos participantes." },
   { "q": "O evento tem código de conduta?", "a": "Sim. Acesse nosso Código de Conduta completo para mais informações." }
 ]
