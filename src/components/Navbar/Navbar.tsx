@@ -40,8 +40,11 @@ export function Navbar() {
             <li><a href={sectionHref('#natal')}>Natal</a></li>
             <li><a href={sectionHref('#sobre')}>Sobre</a></li>
             <li><a href={sectionHref('#trilhas')}>Trilhas</a></li>
+            <li><Link to="/agenda" onClick={closeMenu}>Agenda</Link></li>
             <li><a href={sectionHref('#palestrantes')}>Palestrantes</a></li>
             <li><a href={sectionHref('#patrocinadores')}>Patrocinadores</a></li>
+            <li><a href={sectionHref('#localizacao')}>Local</a></li>
+            <li><a href={sectionHref('#faq')}>FAQ</a></li>
           </ul>
           <div className={s.navCtas}>
             <a href={sectionHref('#patrocinadores')} className={`btn btn-out ${s.hideOnMobile}`}>
@@ -66,8 +69,11 @@ export function Navbar() {
         <a href={sectionHref('#natal')} onClick={closeMenu}>Natal</a>
         <a href={sectionHref('#sobre')} onClick={closeMenu}>Sobre</a>
         <a href={sectionHref('#trilhas')} onClick={closeMenu}>Trilhas</a>
+        <Link to="/agenda" onClick={closeMenu}>Agenda</Link>
         <a href={sectionHref('#palestrantes')} onClick={closeMenu}>Palestrantes</a>
         <a href={sectionHref('#patrocinadores')} onClick={closeMenu}>Patrocinadores</a>
+        <a href={sectionHref('#localizacao')} onClick={closeMenu}>Local</a>
+        <a href={sectionHref('#faq')} onClick={closeMenu}>FAQ</a>
         <a
           href="https://www.sympla.com.br/evento/dunasec-2026/3332895"
           target="_blank"

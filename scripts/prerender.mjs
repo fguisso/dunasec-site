@@ -18,7 +18,7 @@ import { fileURLToPath } from 'url'
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 const DIST    = resolve(__dirname, '../dist')
 const PORT    = 5174
-const ROUTES  = ['/', '/codigo-de-conduta']
+const ROUTES  = ['/', '/agenda', '/codigo-de-conduta']
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',

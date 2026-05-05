@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Footer } from './components/Footer/Footer'
 import { Home } from './pages/Home'
 import { CodigoDeCondutaPage } from './pages/CodigoDeCondutaPage'
+import { AgendaPage } from './pages/AgendaPage'
 import { LinksPage } from './pages/LinksPage'
 
 function ScrollToTop() {
@@ -26,6 +27,7 @@ export function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/agenda" element={<AgendaPage />} />
           <Route path="/codigo-de-conduta" element={<CodigoDeCondutaPage />} />
           <Route path="/links" element={<LinksPage />} />
         </Routes>
