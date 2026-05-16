@@ -16,6 +16,11 @@ const colorMap: Record<string, { nm: string; ln: string }> = {
   bronze: { nm: s.tg, ln: s.tlg },
 }
 
+function withUtm(url: string) {
+  const sep = url.includes('?') ? '&' : '?'
+  return `${url}${sep}utm_source=dunasec.com.br&utm_campaign=dunasec2026`
+}
+
 export function Patrocinadores() {
   const ref = useReveal()
 
@@ -45,7 +50,7 @@ export function Patrocinadores() {
                     ? <img src={item.logo} alt={item.name} className={`${s.limg} ${item.invert ? s.limgInvert : ''}`} loading="lazy" />
                     : item.name
                   return item.url ? (
-                    <a key={i} href={item.url} target="_blank" rel="noopener noreferrer" className={cls}>{img}</a>
+                    <a key={i} href={withUtm(item.url)} target="_blank" rel="noopener noreferrer" className={cls}>{img}</a>
                   ) : (
                     <div key={i} className={cls}>{img}</div>
                   )
