@@ -2,9 +2,13 @@
   { "tier": "platina", "label": "Platina", "price": 15000, "slots": 2, "colorClass": "tp", "lineClass": "tlp", "items": [] },
   { "tier": "ouro",    "label": "Ouro",    "price": 10000, "slots": 3, "colorClass": "tr2", "lineClass": "tlr", "items": [] },
   { "tier": "prata",   "label": "Prata",   "price": 6000,  "slots": 4, "colorClass": "tc2", "lineClass": "tlc", "items": [] },
-  { "tier": "bronze",  "label": "Bronze",  "price": 3000,  "slots": 5, "colorClass": "tg",  "lineClass": "tlg", "items": [
+  { "tier": "bronze",  "label": "Bronze",  "price": 3000,  "slots": 7, "colorClass": "tg",  "lineClass": "tlg", "items": [
     { "name": "BugHunt", "logo": "/patrocinadores/bughunt_preto.png", "url": "https://bughunt.com.br", "bg": "white" },
     { "name": "Katrina Sec", "logo": "/patrocinadores/katrinasec_logo_inteiro.png", "url": "https://katrinasec.com", "bg": "white" },
-    { "name": "Veezor", "logo": "/patrocinadores/veezor_preto.png", "url": "https://www.veezor.com/", "bg": "white" }
+    { "name": "Veezor", "logo": "/patrocinadores/veezor_preto.png", "url": "https://www.veezor.com/", "bg": "white" },
+    { "name": "Blaze Information Security", "logo": "/patrocinadores/Blaze_Information_Security_Logo_Horizontal_Alternative_Black_Medium.png", "url": "https://www.blazeinfosec.com", "bg": "white" },
+    { "name": "Hakai Security", "logo": "/patrocinadores/LOGO_HAKAI.jpg", "url": "https://hakaisecurity.com.br", "bg": "white" },
+    { "name": "ESIG", "logo": "/patrocinadores/Logo_ESIG.png", "url": "https://esig.com.br", "bg": "white" },
+    { "name": "XSITE", "logo": "/patrocinadores/XSITE_As_01.png", "url": "https://xsite.com.br", "bg": "white" }
   ] }
 ]
