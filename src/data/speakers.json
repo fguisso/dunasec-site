@@ -79,5 +79,32 @@
     "company": "Independent",
     "track": "tecnica",
     "photo": "/speakers/noilson.jpeg"
+  },
+  {
+    "id": "fg",
+    "name": "Fernando Guisso",
+    "initials": "FG",
+    "role": "Head of Security",
+    "company": "Tela",
+    "track": "tecnica",
+    "photo": "/speakers/fernando_guisso.png"
+  },
+  {
+    "id": "gb",
+    "name": "Galileu Batista",
+    "initials": "GB",
+    "role": "Professor",
+    "company": "IFRN",
+    "track": "tecnica",
+    "photo": "/speakers/galileu-batista.jpeg"
+  },
+  {
+    "id": "ms",
+    "name": "Moisés Souto",
+    "initials": "MS",
+    "role": "Professor",
+    "company": "IFRN",
+    "track": "tecnica",
+    "photo": "/speakers/moises-souto.png"
   }
 ]
