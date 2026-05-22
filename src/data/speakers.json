@@ -106,5 +106,41 @@
     "company": "IFRN",
     "track": "tecnica",
     "photo": "/speakers/moises-souto.png"
+  },
+  {
+    "id": "pl",
+    "name": "Pamela Lira",
+    "initials": "PL",
+    "role": "Solutions Architect",
+    "company": "AWS",
+    "track": "gerencial",
+    "photo": "/speakers/pamela-lira.jpeg"
+  },
+  {
+    "id": "gd",
+    "name": "Gabriel Damazio",
+    "initials": "GD",
+    "role": "Agente Local de Inovação",
+    "company": "SEBRAE",
+    "track": "gerencial",
+    "photo": "/speakers/gabriel-damazio.png"
+  },
+  {
+    "id": "as",
+    "name": "Alana Silva",
+    "initials": "AS",
+    "role": "Sócia",
+    "company": "BZV Advogados",
+    "track": "gerencial",
+    "photo": "/speakers/alana-silva.jpeg"
+  },
+  {
+    "id": "lb",
+    "name": "Lucas Bezerra Vieira",
+    "initials": "LB",
+    "role": "Sócio Fundador",
+    "company": "BZV Advogados",
+    "track": "gerencial",
+    "photo": "/speakers/lucas-bezerra.jpeg"
   }
 ]
