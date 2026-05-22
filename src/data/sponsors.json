@@ -7,8 +7,8 @@
     { "name": "Katrina Sec", "logo": "/patrocinadores/katrinasec_logo_inteiro.png", "url": "https://katrinasec.com", "bg": "white" },
     { "name": "Veezor", "logo": "/patrocinadores/veezor_preto.png", "url": "https://www.veezor.com/", "bg": "white" },
     { "name": "Blaze Information Security", "logo": "/patrocinadores/Blaze_Information_Security_Logo_Horizontal_Alternative_Black_Medium.png", "url": "https://www.blazeinfosec.com", "bg": "white" },
-    { "name": "Hakai Security", "logo": "/patrocinadores/LOGO_HAKAI.jpg", "url": "https://hakaisecurity.com.br", "bg": "white" },
-    { "name": "ESIG", "logo": "/patrocinadores/Logo_ESIG.png", "url": "https://esig.com.br", "bg": "white" },
+    { "name": "Hakai Security", "logo": "/patrocinadores/LOGO_HAKAI.jpg", "url": "https://hakaisecurity.com.br", "bg": "white", "tall": true },
+    { "name": "ESIG", "logo": "/patrocinadores/Logo_ESIG.png", "url": "https://esig.com.br", "bg": "white", "tall": true },
     { "name": "XSITE", "logo": "/patrocinadores/XSITE_As_01.png", "url": "https://xsite.com.br", "bg": "white" }
   ] }
 ]

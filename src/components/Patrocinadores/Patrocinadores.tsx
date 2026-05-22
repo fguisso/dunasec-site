@@ -43,11 +43,11 @@ export function Patrocinadores() {
                 <div className={`${s.tierLn} ${colors.ln}`} />
               </div>
               <div className={s.lrow}>
-                {tier.items.map((item: { name: string; logo?: string; url?: string; bg?: string; invert?: boolean }, i: number) => {
+                {tier.items.map((item: { name: string; logo?: string; url?: string; bg?: string; invert?: boolean; tall?: boolean }, i: number) => {
                   const bgCls = item.bg === 'white' ? s.bgWhite : item.bg === 'black' ? s.bgBlack : ''
                   const cls = `${s.lph} ${size} ${bgCls}`
                   const img = item.logo
-                    ? <img src={item.logo} alt={item.name} className={`${s.limg} ${item.invert ? s.limgInvert : ''}`} loading="lazy" />
+                    ? <img src={item.logo} alt={item.name} className={`${s.limg} ${item.tall ? s.limgTall : ''} ${item.invert ? s.limgInvert : ''}`} loading="lazy" />
                     : item.name
                   return item.url ? (
                     <a key={i} href={withUtm(item.url)} target="_blank" rel="noopener noreferrer" className={cls}>{img}</a>

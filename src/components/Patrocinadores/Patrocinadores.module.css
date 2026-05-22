@@ -52,6 +52,7 @@
 .lph:hover { border-color: var(--r25); }
 
 .limg { max-width: 80%; max-height: 60%; object-fit: contain; }
+.limgTall { max-width: 70%; max-height: 88%; }
 .limgInvert { filter: invert(1); }
 
 .bgWhite { background: #fff; }
