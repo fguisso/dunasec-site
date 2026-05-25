@@ -2,33 +2,119 @@
   { "time": "09:00", "endTime": "09:30", "duration": 30, "type": "general", "title": "Credenciamento" },
   { "time": "09:30", "endTime": "09:45", "duration": 15, "type": "general", "title": "Abertura Oficial do Evento" },
 
-  { "time": "09:45", "endTime": "10:25", "duration": 40, "type": "talk", "track": "tecnica" },
+  {
+    "time": "09:45", "endTime": "10:25", "duration": 40,
+    "type": "talk", "track": "tecnica",
+    "speakerId": "cn",
+    "title": "Quem pode entrar? Controle de acesso sem dor de cabeça (ou vazamento de dados)",
+    "description": "Você sabe realmente quem pode acessar o quê dentro da sua AWS? Vamos descomplicar a gestão de acessos aplicando o princípio do menor privilégio sem travar o time e evitar brechas que podem virar incidentes sérios."
+  },
 
-  { "time": "10:30", "endTime": "11:10", "duration": 40, "type": "talk", "track": "tecnica" },
-  { "time": "10:30", "endTime": "11:10", "duration": 40, "type": "panel", "track": "gerencial" },
+  {
+    "time": "10:30", "endTime": "11:10", "duration": 40,
+    "type": "talk", "track": "tecnica",
+    "speakerId": "kn",
+    "title": "Como enganar bobocas, usando IA; um outro nível.",
+    "description": "A IA generativa tornou o phishing mais rápido, mais barato e assustadoramente convincente. Páginas falsas com aparência profissional, textos sem erros e interações realistas agora são criados em minutos por qualquer pessoa. Nesta palestra, mostramos como isso funciona na prática e por que esses ataques estão explodindo em volume e sofisticação."
+  },
+  {
+    "time": "10:30", "endTime": "11:10", "duration": 40,
+    "type": "panel", "track": "gerencial",
+    "title": "Feature no ar, risco junto: quem segura essa conta?",
+    "moderatorId": "gd",
+    "panelistIds": ["as", "lb"],
+    "description": "Startup gosta de velocidade. O problema é que, junto com cada feature que vai pro ar, também vão decisões sobre dados que quase nunca passam pela mesma atenção. Esse painel puxa essa conversa sem rodeio. Quem responde quando algo dá errado? Onde termina o produto e começa a responsabilidade? E em que momento governança de dados deixa de ser algo \"pra depois\" e vira parte do que sustenta o crescimento?"
+  },
 
-  { "time": "11:15", "endTime": "11:55", "duration": 40, "type": "talk", "track": "tecnica" },
-  { "time": "11:15", "endTime": "11:55", "duration": 40, "type": "talk", "track": "gerencial" },
+  {
+    "time": "11:15", "endTime": "11:55", "duration": 40,
+    "type": "talk", "track": "tecnica",
+    "speakerId": "ac",
+    "title": "Utilizando IA Generativa para automatizar sua Pipeline de defesa",
+    "description": "A crescente sofisticação das ameaças cibernéticas exige que as equipes de defesa evoluam além das respostas manuais e reativas. Nesta palestra, exploramos como a Inteligência Artificial Generativa pode ser integrada às pipelines de segurança para acelerar a detecção, enriquecer o contexto de ameaças e automatizar respostas, transformando o analista humano em um orquestrador estratégico."
+  },
+  {
+    "time": "11:15", "endTime": "11:55", "duration": 40,
+    "type": "talk", "track": "gerencial",
+    "speakerId": "pl",
+    "title": "Do Caos ao Controle: Usando IA como copiloto de segurança na nuvem",
+    "description": "Sua conta AWS está segura agora? A maioria dos times não sabe responder. Nesta palestra, mostro como agentes de IA transformam segurança na nuvem. De um assessment conversacional que verifica 73 controles direto da IDE, até um frontier agent que faz pentest autônomo e propõe correções direto no código. Do diagnóstico à proteção contínua, sem depender de consultorias caras ou processos manuais."
+  },
 
-  { "time": "12:00", "endTime": "12:40", "duration": 40, "type": "talk", "track": "tecnica" },
-  { "time": "12:00", "endTime": "12:40", "duration": 40, "type": "panel", "track": "gerencial" },
+  {
+    "time": "12:00", "endTime": "12:40", "duration": 40,
+    "type": "talk", "track": "tecnica",
+    "speakerId": "jm",
+    "title": "RASP e suas implicações",
+    "description": "A apresentação explora o ecossistema de proteções em aplicativos Android, analisando o equilíbrio entre segurança defensiva e técnicas de bypass em cenários de teste Black Box. O objetivo é demonstrar como as camadas de segurança funcionam na prática e como analistas podem superá-las quando não há acesso ao código-fonte original."
+  },
+  {
+    "time": "12:00", "endTime": "12:40", "duration": 40,
+    "type": "talk", "track": "gerencial"
+  },
 
   { "time": "12:40", "endTime": "14:10", "duration": 90, "type": "general", "title": "Pausa para Almoço" },
 
-  { "time": "14:10", "endTime": "14:50", "duration": 40, "type": "talk", "track": "tecnica" },
-  { "time": "14:10", "endTime": "14:50", "duration": 40, "type": "panel", "track": "gerencial" },
+  {
+    "time": "14:10", "endTime": "14:50", "duration": 40,
+    "type": "talk", "track": "tecnica",
+    "speakerId": "cl",
+    "title": "VibeHacking, Encontrando 0days Ao Vivo",
+    "description": "A palestra apresenta casos reais de 0days encontrados com auxílio de LLMs e como a IA se integra ao fluxo de pesquisa de vulnerabilidades. Na segunda parte, uma sessão ao vivo de bug hunting assistido por IA, com interação da plateia."
+  },
+  {
+    "time": "14:10", "endTime": "14:50", "duration": 40,
+    "type": "talk", "track": "gerencial",
+    "speakerId": "am"
+  },
 
-  { "time": "14:55", "endTime": "15:35", "duration": 40, "type": "talk", "track": "tecnica" },
-  { "time": "14:55", "endTime": "15:35", "duration": 40, "type": "talk", "track": "gerencial" },
+  {
+    "time": "14:55", "endTime": "15:35", "duration": 40,
+    "type": "talk", "track": "tecnica",
+    "speakerId": "ea",
+    "title": "Mindset de AppSec no Bug Bounty: Encontre vulnerabilidades lendo o código",
+    "description": "As aplicações modernas transferem cada vez mais lógica para o front-end, fazendo com que vulnerabilidades como XSS e Open Redirect muitas vezes passem batidas. Nesta talk, vou apresentar o SunCodeQL, demonstrando insights de appsec para novos bountys. O foco será técnico e prático, com PoCs reais mostrando a interceptação e descoberta dessas falhas no client-side."
+  },
+  {
+    "time": "14:55", "endTime": "15:35", "duration": 40,
+    "type": "panel", "track": "gerencial"
+  },
 
-  { "time": "15:35", "endTime": "16:00", "duration": 25, "type": "general", "title": "Coffee Break" },
+  { "time": "15:35", "endTime": "16:00", "duration": 25, "type": "general", "title": "Pausa" },
 
-  { "time": "16:00", "endTime": "16:40", "duration": 40, "type": "talk", "track": "tecnica" },
-  { "time": "16:00", "endTime": "16:40", "duration": 40, "type": "talk", "track": "gerencial" },
+  {
+    "time": "16:00", "endTime": "16:40", "duration": 40,
+    "type": "talk", "track": "tecnica",
+    "speakerId": "ef",
+    "title": "O que o IoC não conta",
+    "description": "Toda ferramenta de CTI promete a mesma coisa e toda demo de AI parece resolver o problema. No dia a dia, decidir sobre informação parcial, ambígua e às vezes envenenada continua sendo trabalho humano. Esta palestra compara o que as principais ferramentas realmente entregam e mostra onde a AI acelera de fato, a partir de casos práticos."
+  },
+  {
+    "time": "16:00", "endTime": "16:40", "duration": 40,
+    "type": "panel", "track": "gerencial",
+    "title": "Cibersegurança em ambientes financeiros"
+  },
 
-  { "time": "16:45", "endTime": "17:25", "duration": 40, "type": "talk", "track": "tecnica" },
-  { "time": "16:45", "endTime": "17:25", "duration": 40, "type": "panel", "track": "gerencial" },
+  {
+    "time": "16:45", "endTime": "17:25", "duration": 40,
+    "type": "talk", "track": "tecnica",
+    "speakerId": "hc",
+    "title": "Passe Livre: clonando cartões de transporte capixabas",
+    "description": "Nessa palestra abordaremos de forma prática a clonagem de cartões no sistema de transporte capixaba, baseado no já conhecido Mifare Classic 1k, percorrendo desde a estrutura de memória até as fragilidades do modelo criptográfico utilizado, a fim de entendermos como essas implementações permitem a reprodução e a manipulação do comportamento direto na catraca do ônibus. Também compararemos a implementação capixaba com arquiteturas adotadas em outros estados, destacando decisões que aumentaram (ou reduziram) a superfície de fraude do sistema."
+  },
+  {
+    "time": "16:45", "endTime": "17:25", "duration": 40,
+    "type": "talk", "track": "gerencial"
+  },
 
-  { "time": "17:35", "endTime": "18:25", "duration": 50, "type": "general", "title": "Painel" },
+  {
+    "time": "17:35", "endTime": "18:25", "duration": 50,
+    "type": "panel", "track": "tecnica",
+    "title": "Segurança em Dispositivos de Alta Criticidade",
+    "moderatorId": "fg",
+    "panelistIds": ["nc", "ms", "gb"],
+    "description": "Da urna eletrônica ao satélite, passando pelas redes sem fio que sustentam infraestruturas críticas. Este painel reúne especialistas que atuam na linha de frente da segurança de dispositivos onde uma vulnerabilidade pode comprometer sistemas essenciais para a sociedade. A conversa vai além do conceito: são experiências reais, ataques documentados e lições aprendidas no campo."
+  },
+
   { "time": "18:25", "endTime": "19:00", "duration": 35, "type": "general", "title": "Encerramento" }
 ]
