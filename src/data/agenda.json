@@ -50,7 +50,10 @@
   },
   {
     "time": "12:00", "endTime": "12:40", "duration": 40,
-    "type": "talk", "track": "gerencial"
+    "type": "talk", "track": "gerencial",
+    "speakerId": "ak",
+    "title": "Quando um parceiro se torna um risco: Porque fornecedores e parceiros são o novo alvo dos ciberataques",
+    "description": "Essa palestra discute como fornecedores, prestadores de serviço e parceiros de negócio passaram a ocupar uma posição estratégica e vulnerável na cadeia de cibersegurança das empresas. A partir do tema \"Quando um parceiro se torna um risco\", é abordo por que cibercriminosos miram terceiros como porta de entrada para ataques, quais sinais de alerta devem ser monitorados e como organizações podem fortalecer a gestão de riscos, contratos, acessos e controles ao longo de todo o ecossistema de parceiros."
   },
 
   { "time": "12:40", "endTime": "14:10", "duration": 90, "type": "general", "title": "Pausa para Almoço" },
@@ -104,7 +107,8 @@
   },
   {
     "time": "16:45", "endTime": "17:25", "duration": 40,
-    "type": "talk", "track": "gerencial"
+    "type": "talk", "track": "gerencial",
+    "speakerId": "wg"
   },
 
   {
