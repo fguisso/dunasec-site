@@ -169,5 +169,14 @@
     "company": "Apura Cyber Intelligence",
     "track": "gerencial",
     "photo": "/speakers/anchises.jpg"
+  },
+  {
+    "id": "rc",
+    "name": "Rodrigo Castro",
+    "initials": "RC",
+    "role": "CIO",
+    "company": "Imobanco",
+    "track": "gerencial",
+    "photo": "/speakers/rodrigo castro.jpg"
   }
 ]

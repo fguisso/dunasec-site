@@ -1,6 +1,6 @@
 [
   { "q": "Como compro meu ingresso?", "a": "Os ingressos estão disponíveis no Sympla. Clique em \"Comprar Ingresso\" no topo da página." },
-  { "q": "O evento emite certificado?", "a": "Sim, todos os participantes receberão certificado digital de participação após o evento." },
+  { "q": "O evento emite certificado?", "a": "Sim! O certificado digital será emitido para participantes que realizarem o check-in presencial durante o evento. A presença será validada por QR Code em momentos ao longo do dia, por isso, fique atento às instruções da organização no local." },
   { "q": "Haverá transmissão online?", "a": "Não. O DunaSec 2026 é exclusivamente presencial." },
   { "q": "Como funciona o credenciamento?", "a": "O credenciamento começa às 9h no local do evento. Apresente seu QR Code do Sympla ou documento de identidade com foto. Estudantes precisam apresentar carteira de estudante ou comprovante de vínculo com a universidade." },
   { "q": "Tem estacionamento no local?", "a": "Sim, o Hotel Barreira Roxa oferece estacionamento gratuito para os participantes do evento." },

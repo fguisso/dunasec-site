@@ -68,7 +68,9 @@
   {
     "time": "14:10", "endTime": "14:50", "duration": 40,
     "type": "talk", "track": "gerencial",
-    "speakerId": "am"
+    "speakerId": "am",
+    "title": "A Extinção da Privacidade: O Perigo dos Painéis Ilícitos de Consultas",
+    "description": "Alerta de spoiler: a privacidade não existe mais. Você já se perguntou como aquele fraudador descobriu o telefone da sua vovozinha e mandou um WhatsApp em seu nome? Vamos conhecer um pouco sobre os painéis de consulta, essas ferramentas que são alimentadas, principalmente, por grandes vazamentos de dados corporativos e que estão nas mãos do cibercrime. Uma \"puxada\" e assim começa a engenharia social. Amplamente usadas nos mais diversos golpes, os painéis fazem da nossa vida um inferno. Lamento dizer, mas a privacidade de nossos dados se tornou um sonho distante, e a culpa não é da nossa tia Márcia que posta as fotos de seus gatinhos nas redes sociais."
   },
 
   {
@@ -95,7 +97,10 @@
   {
     "time": "16:00", "endTime": "16:40", "duration": 40,
     "type": "panel", "track": "gerencial",
-    "title": "Cibersegurança em ambientes financeiros"
+    "title": "Cibersegurança em ambientes financeiros",
+    "moderatorId": "fg",
+    "panelistIds": ["rc"],
+    "description": "Um painel sobre os desafios de ciberseguranca em fintechs e bancos. Vamos discutir as exigencias do Bacen, a adocao de frameworks como ISO 27001 e quais direcionamentos essas empresas precisam seguir para manter a seguranca digital em dia."
   },
 
   {
