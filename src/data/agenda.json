@@ -82,7 +82,8 @@
   },
   {
     "time": "14:55", "endTime": "15:35", "duration": 40,
-    "type": "panel", "track": "gerencial"
+    "type": "panel", "track": "gerencial",
+    "title": "Tema LGPD (a confirmar)"
   },
 
   { "time": "15:35", "endTime": "16:00", "duration": 25, "type": "general", "title": "Pausa" },
@@ -113,7 +114,9 @@
   {
     "time": "16:45", "endTime": "17:25", "duration": 40,
     "type": "talk", "track": "gerencial",
-    "speakerId": "wg"
+    "speakerId": "wg",
+    "title": "Sobrevivendo ao Inverno Quântico: Um Guia de Governança para CISO e especialistas",
+    "description": "Como justificar investimentos em Quantum Safe quando o ROI parece invisível? Esta palestra oferece um roteiro prático para líderes de segurança navegarem pelas pressões regulatórias e normativas que estão por vir. Discutiremos como montar um \"Task Force Quântico\", como avaliar fornecedores que prometem soluções milagrosas e como garantir que sua organização não seja a última a migrar, tornando-se o alvo mais fácil do mercado."
   },
 
   {
