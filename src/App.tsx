@@ -5,6 +5,7 @@ import { Footer } from './components/Footer/Footer'
 import { Home } from './pages/Home'
 import { CodigoDeCondutaPage } from './pages/CodigoDeCondutaPage'
 import { AgendaPage } from './pages/AgendaPage'
+import { DicasDaCidadePage } from './pages/DicasDaCidadePage'
 import { LinksPage } from './pages/LinksPage'
 
 function ScrollToTop() {
@@ -28,6 +29,7 @@ export function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/agenda" element={<AgendaPage />} />
+          <Route path="/dicas-da-cidade" element={<DicasDaCidadePage />} />
           <Route path="/codigo-de-conduta" element={<CodigoDeCondutaPage />} />
           <Route path="/links" element={<LinksPage />} />
         </Routes>

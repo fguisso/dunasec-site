@@ -1,0 +1,297 @@
+[
+  {
+    "id": "restaurantes",
+    "title": "Restaurantes",
+    "places": [
+      {
+        "name": "Tábua de Carne - Via Costeira",
+        "description": "Tradicional restaurante potiguar especializado em carnes e culinária regional nordestina.",
+        "distance": "500 m",
+        "address": "Via Costeira Sen. Dinarte Medeiros Mariz, 229 – Parque das Dunas, Natal/RN",
+        "phone": "(84) 3202-5838",
+        "hours": ["Segunda a sábado: 11h30 às 22h30", "Domingo: 11h30 às 17h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=T%C3%A1bua+de+Carne+Via+Costeira+Natal+RN",
+        "highlights": [
+          "10% de desconto no almoço no dia do evento",
+          "Isenção do couvert artístico",
+          "Necessário apresentar a credencial do evento"
+        ]
+      },
+      {
+        "name": "Mangai",
+        "description": "Referência em culinária regional nordestina e comidas típicas.",
+        "distance": "11 km",
+        "address": "Rua Desembargador João Vicente da Costa, 8861 – Ponta Negra, Natal/RN",
+        "phone": "(84) 3026-6335",
+        "hours": ["Todos os dias: 11h30 às 22h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mangai+Ponta+Negra+Natal+RN",
+        "highlights": [
+          "10% de desconto no almoço no dia do evento",
+          "Necessário apresentar a credencial do evento"
+        ]
+      },
+      {
+        "name": "Camarões Restaurante",
+        "description": "Especializado em frutos do mar e um dos restaurantes mais famosos da cidade.",
+        "distance": "10 km",
+        "address": "Av. Engenheiro Roberto Freire, 3980 – Ponta Negra, Natal/RN",
+        "phone": "(84) 3209-2424",
+        "hours": ["Segunda a quinta: 11h30 às 15h00 e 18h30 às 23h00", "Sexta e sábado: 11h30 às 15h30 e 18h30 às 23h00", "Domingo: 11h30 às 16h00 e 18h30 às 22h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Camar%C3%B5es+Restaurante+Ponta+Negra+Natal+RN"
+      },
+      {
+        "name": "NAU Frutos do Mar RN",
+        "description": "Restaurante sofisticado com foco em frutos do mar e gastronomia contemporânea.",
+        "distance": "8 km",
+        "address": "Av. Odilon Gomes de Lima, 1772 – Capim Macio, Natal/RN",
+        "phone": "(84) 3026-6333",
+        "hours": ["Todos os dias: 12h00 às 15h30 e 18h30 às 22h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=NAU+Frutos+do+Mar+Natal+RN"
+      },
+      {
+        "name": "Pinga Fogo Restaurant",
+        "description": "Buffet bastante conhecido com culinária variada e churrasco.",
+        "distance": "10 km",
+        "address": "Av. Engenheiro Roberto Freire, 3846 – Ponta Negra, Natal/RN",
+        "phone": "(84) 99984-87544",
+        "hours": ["Todos os dias: 11h00 às 16h00 e 18h00 às 23h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pinga+Fogo+Restaurant+Ponta+Negra+Natal+RN"
+      },
+      {
+        "name": "Bar U1000D Tião",
+        "description": "Muito famoso em Natal pela comida regional, ambiente descontraído e preço acessível.",
+        "distance": "11 km",
+        "address": "Rua Juiz de Fora, 2919 – Neópolis, Natal/RN",
+        "phone": "(84) 98883-4689",
+        "hours": ["Quarta: 10h00 às 17h00", "Quinta a domingo: 10h00 às 15h30"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar+U1000D+Ti%C3%A3o+Ne%C3%B3polis+Natal+RN"
+      },
+      {
+        "name": "Farofa D'Água",
+        "description": "Restaurante regional bastante conhecido entre turistas e moradores.",
+        "distance": "12 km",
+        "address": "Av. Praia de Ponta Negra – Ponta Negra, Natal/RN",
+        "phone": "Consulte redes sociais oficiais",
+        "hours": ["Almoço e jantar diariamente"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Farofa+D%27%C3%81gua+Ponta+Negra+Natal+RN"
+      }
+    ]
+  },
+  {
+    "id": "pontos-turisticos",
+    "title": "Pontos Turísticos",
+    "places": [
+      {
+        "name": "Morro do Careca",
+        "description": "Principal cartão-postal da cidade, localizado em Ponta Negra.",
+        "distance": "12 km",
+        "address": "Praia de Ponta Negra – Natal/RN",
+        "hours": ["Acesso externo disponível 24h"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Morro+do+Careca+Ponta+Negra+Natal+RN"
+      },
+      {
+        "name": "Fortaleza dos Reis Magos",
+        "description": "Forte histórico do século XVI com vista para o encontro do rio com o mar.",
+        "distance": "5 km",
+        "address": "Av. Presidente Café Filho, 1 – Praia do Meio, Natal/RN",
+        "phone": "(84) 98746-6605",
+        "hours": ["Terça a domingo: 08h00 às 16h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fortaleza+dos+Reis+Magos+Natal+RN"
+      },
+      {
+        "name": "Feirinha de Artesanato de Ponta Negra",
+        "description": "Tradicional feirinha de artesanato de Natal, com quiosques de lembranças, roupas, castanhas, artesanato regional e praça de alimentação. Aos finais de semana costuma ter apresentações de forró ao vivo.",
+        "distance": "12 km",
+        "address": "Av. Praia de Tibau – Conj. Ponta Negra, Natal/RN – CEP 59090-110",
+        "phone": "(84) 3219-0007",
+        "hours": ["Todos os dias: 08h00 às 22h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Feirinha+de+Artesanato+Ponta+Negra+Natal+RN"
+      },
+      {
+        "name": "Centro de Turismo de Natal",
+        "description": "Centro cultural e de artesanato regional.",
+        "distance": "4 km",
+        "address": "Rua Aderbal de Figueiredo, 980 – Petrópolis, Natal/RN",
+        "phone": "(84) 3211-6149",
+        "hours": ["Todos os dias: 08h00 às 18h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centro+de+Turismo+de+Natal+RN"
+      },
+      {
+        "name": "Parque das Dunas",
+        "description": "Maior parque urbano sobre dunas do Brasil, com trilhas e natureza preservada. A entrada de visitantes fica no bairro Tirol (nao pela Via Costeira).",
+        "distance": "6 km",
+        "address": "Av. Alm. Alexandrino de Alencar, s/n – Tirol, Natal/RN",
+        "phone": "(84) 3201-4440",
+        "hours": ["Terça a domingo: 08h00 às 18h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parque+das+Dunas+Natal+RN"
+      },
+      {
+        "name": "Letreiro de Natal",
+        "description": "Local clássico para fotos com vista para o mar.",
+        "distance": "2 km",
+        "address": "Av. Governador Silvio Pedroza – Areia Preta, Natal/RN",
+        "hours": ["Aberto 24h"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Letreiro+de+Natal+Areia+Preta+RN"
+      },
+      {
+        "name": "Barreira do Inferno Launch Center",
+        "description": "Primeira base de lançamento de foguetes da América do Sul.",
+        "distance": "19 km",
+        "address": "RN-063, km 11 – Ponta Negra, Natal/RN",
+        "phone": "(84) 3216-1400",
+        "hours": ["Visitação geralmente em horário comercial"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centro+de+Lan%C3%A7amento+Barreira+do+Inferno+Natal+RN"
+      },
+      {
+        "name": "Cajueiro da Praia de Pirangi",
+        "description": "Conhecido como o maior cajueiro do mundo e uma das atrações mais visitadas do RN.",
+        "distance": "25 km",
+        "address": "Av. Dep. Márcio Marinho, 2 – Pirangi do Norte, Parnamirim/RN",
+        "hours": ["Todos os dias: 08h00 às 17h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Maior+Cajueiro+do+Mundo+Pirangi+Parnamirim+RN"
+      },
+      {
+        "name": "Aquário Natal",
+        "description": "Aquário com espécies marinhas, tubarões, pinguins e atrações para crianças.",
+        "distance": "20 km",
+        "address": "Av. Litorânea, 1091 – Redinha Nova, Extremoz/RN",
+        "phone": "(84) 3224-2177",
+        "hours": ["Todos os dias: 08h00 às 17h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aqu%C3%A1rio+Natal+Redinha+Nova+Extremoz+RN"
+      }
+    ]
+  },
+  {
+    "id": "shoppings",
+    "title": "Shoppings",
+    "places": [
+      {
+        "name": "Praia Shopping",
+        "description": "Shopping próximo de Ponta Negra com lojas, praça de alimentação e cinema.",
+        "distance": "9 km",
+        "address": "Av. Engenheiro Roberto Freire, 3132 – Capim Macio, Natal/RN",
+        "phone": "(84) 98881-7895",
+        "hours": ["Segunda a sábado: 10h00 às 22h00", "Domingo: 14h00 às 20h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Praia+Shopping+Natal+RN"
+      },
+      {
+        "name": "Natal Shopping",
+        "description": "Um dos principais centros comerciais da cidade.",
+        "distance": "6 km",
+        "address": "Av. Senador Salgado Filho, 2234 – Candelária, Natal/RN",
+        "phone": "(84) 3209-8199",
+        "hours": ["Segunda a sábado: 10h00 às 22h00", "Domingo: 11h00 às 21h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Natal+Shopping+Candel%C3%A1ria+Natal+RN"
+      },
+      {
+        "name": "Midway Mall",
+        "description": "Maior shopping de Natal, com ampla variedade de lojas, restaurantes e cinema.",
+        "distance": "5 km",
+        "address": "Av. Nevaldo Rocha, 3775 – Tirol, Natal/RN",
+        "phone": "(84) 98668-8050",
+        "hours": ["Segunda a sábado: 10h00 às 22h00", "Domingo: 11h00 às 22h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Midway+Mall+Natal+RN"
+      }
+    ]
+  },
+  {
+    "id": "cafeterias",
+    "title": "Cafeterias",
+    "places": [
+      {
+        "name": "Muso Café",
+        "description": "Cafeteria moderna e aconchegante, ótima para cafés especiais e brunch.",
+        "distance": "5 km",
+        "address": "Praça Augusto Leite, 637 – Tirol, Natal/RN",
+        "phone": "(84) 98892-9768",
+        "hours": ["Segunda a quarta: 08h00 às 19h00", "Quinta a domingo: 13h00 às 19h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Muso+Caf%C3%A9+Tirol+Natal+RN"
+      },
+      {
+        "name": "Just Food&Coffee",
+        "description": "Espaço moderno com cafés especiais, doces e lanches artesanais.",
+        "distance": "9 km",
+        "address": "Rua Dr. Orlando de Azevedo, 1981 – Capim Macio, Natal/RN",
+        "hours": ["Todos os dias: 15h00 às 21h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Just+Food+Coffee+Capim+Macio+Natal+RN"
+      },
+      {
+        "name": "Ô Pudim Cafeteria",
+        "description": "Cafeteria famosa pelos doces, pudins artesanais e ambiente acolhedor.",
+        "distance": "4 km",
+        "address": "Rua Trairi, 04 e 05 – Petrópolis, Natal/RN",
+        "phone": "(84) 99925-8223",
+        "hours": ["Segunda a sexta: 09h00 às 19h00", "Sábado: 09h00 às 18h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%94+Pudim+Cafeteria+Petr%C3%B3polis+Natal+RN"
+      }
+    ]
+  },
+  {
+    "id": "praias",
+    "title": "Praias",
+    "places": [
+      {
+        "name": "Praia de Miami",
+        "description": "Praia urbana na Via Costeira com aproximadamente 300m de orla e ampla faixa de areia. Ganhou o nome durante a Segunda Guerra Mundial, quando soldados americanos a elegeram como praia favorita. Ambiente tranquilo, ótima para vôlei de praia, beach tennis e futevôlei.",
+        "distance": "500 m",
+        "address": "Via Costeira Sen. Dinarte Medeiros Mariz – Areia Preta, Natal/RN",
+        "hours": ["Acesso livre 24h"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Praia+de+Miami+Via+Costeira+Natal+RN"
+      },
+      {
+        "name": "Praia de Ponta Negra",
+        "description": "Praia mais famosa de Natal, com vista para o Morro do Careca, quiosques, bares e vida noturna.",
+        "distance": "12 km",
+        "address": "R. Des. João Vicente da Costa – Ponta Negra, Natal/RN",
+        "hours": ["Acesso livre 24h"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Praia+de+Ponta+Negra+Natal+RN"
+      },
+      {
+        "name": "Praia de Areia Preta",
+        "description": "Praia urbana tradicional com bela vista da Via Costeira e do letreiro de Natal.",
+        "distance": "1.5 km",
+        "address": "Areia Preta – Natal/RN",
+        "hours": ["Acesso livre 24h"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Praia+de+Areia+Preta+Natal+RN"
+      },
+      {
+        "name": "Praia dos Artistas",
+        "description": "Praia bastante conhecida para caminhadas, bares e vista do litoral urbano.",
+        "distance": "3 km",
+        "address": "Praia dos Artistas – Natal/RN",
+        "hours": ["Acesso livre 24h"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Praia+dos+Artistas+Natal+RN"
+      }
+    ]
+  },
+  {
+    "id": "lagoas",
+    "title": "Lagoas",
+    "places": [
+      {
+        "name": "Lagoa de Arituba",
+        "description": "Lagoa famosa pelos pedalinhos, caiaques e águas cristalinas.",
+        "distance": "35 km",
+        "address": "Nísia Floresta/RN",
+        "hours": ["Acesso geralmente entre 08h00 às 17h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lagoa+de+Arituba+N%C3%ADsia+Floresta+RN"
+      },
+      {
+        "name": "Lagoa de Jacumã",
+        "description": "Muito procurada pelos passeios de aerobunda e kamikaze.",
+        "distance": "40 km",
+        "address": "Jacumã – Ceará-Mirim/RN",
+        "hours": ["Passeios normalmente entre 08h00 às 17h00"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lagoa+de+Jacum%C3%A3+Cear%C3%A1-Mirim+RN"
+      },
+      {
+        "name": "Lagoa de Pitangui",
+        "description": "Ótima opção para banho e passeios de buggy no litoral norte.",
+        "distance": "30 km",
+        "address": "Pitangui – Extremoz/RN",
+        "hours": ["Acesso livre durante o dia"],
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lagoa+de+Pitangui+Extremoz+RN"
+      }
+    ]
+  }
+]

@@ -37,14 +37,11 @@ export function Navbar() {
             <img src={logoImg} alt="DunaSec" />
           </Link>
           <ul className={s.navLinks}>
-            <li><a href={sectionHref('#natal')}>Natal</a></li>
-            <li><a href={sectionHref('#sobre')}>Sobre</a></li>
-            <li><a href={sectionHref('#trilhas')}>Trilhas</a></li>
             <li><Link to="/agenda" onClick={closeMenu}>Agenda</Link></li>
             <li><a href={sectionHref('#palestrantes')}>Palestrantes</a></li>
             <li><a href={sectionHref('#patrocinadores')}>Patrocinadores</a></li>
-            <li><a href={sectionHref('#localizacao')}>Local</a></li>
             <li><a href={sectionHref('#faq')}>FAQ</a></li>
+            <li><Link to="/dicas-da-cidade" onClick={closeMenu}>Dicas da Cidade</Link></li>
           </ul>
           <div className={s.navCtas}>
             <a href={sectionHref('#patrocinadores')} className={`btn btn-out ${s.hideOnMobile}`}>
@@ -66,14 +63,11 @@ export function Navbar() {
       </nav>
 
       <div className={`${s.mob}${open ? ' ' + s.open : ''}`}>
-        <a href={sectionHref('#natal')} onClick={closeMenu}>Natal</a>
-        <a href={sectionHref('#sobre')} onClick={closeMenu}>Sobre</a>
-        <a href={sectionHref('#trilhas')} onClick={closeMenu}>Trilhas</a>
         <Link to="/agenda" onClick={closeMenu}>Agenda</Link>
         <a href={sectionHref('#palestrantes')} onClick={closeMenu}>Palestrantes</a>
         <a href={sectionHref('#patrocinadores')} onClick={closeMenu}>Patrocinadores</a>
-        <a href={sectionHref('#localizacao')} onClick={closeMenu}>Local</a>
         <a href={sectionHref('#faq')} onClick={closeMenu}>FAQ</a>
+        <Link to="/dicas-da-cidade" onClick={closeMenu}>Dicas da Cidade</Link>
         <a
           href="https://www.sympla.com.br/evento/dunasec-2026/3332895"
           target="_blank"
