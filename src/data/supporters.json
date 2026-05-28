@@ -146,6 +146,32 @@
       "logo": "/apoio/logo_pydata.jpg",
       "url": "https://www.instagram.com/pydatanatal/",
       "bg": "white"
+    },
+    {
+      "name": "BSides João Pessoa",
+      "logo": "/apoio/bsidesjp_logo.jpeg",
+      "url": "https://www.bsidesjp.com.br/",
+      "bg": "white",
+      "big": "xl"
+    },
+    {
+      "name": "BSides Recife",
+      "logo": "/apoio/bsides_recife.jpg",
+      "url": "https://www.bsidesrecife.com.br/",
+      "bg": "white",
+      "big": true
+    },
+    {
+      "name": "Bolha",
+      "logo": "/apoio/bolhinha-logo.png",
+      "url": "https://bolha.one",
+      "bg": "white"
+    },
+    {
+      "name": "Novatec",
+      "logo": "/apoio/Novatec.png",
+      "url": "https://novatec.com.br",
+      "bg": "white"
     }
   ]
 }

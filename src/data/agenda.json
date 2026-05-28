@@ -100,7 +100,7 @@
     "type": "panel", "track": "gerencial",
     "title": "Cibersegurança em ambientes financeiros",
     "moderatorId": "fg",
-    "panelistIds": ["rc"],
+    "panelistIds": ["rc", "cn"],
     "description": "Um painel sobre os desafios de ciberseguranca em fintechs e bancos. Vamos discutir as exigencias do Bacen, a adocao de frameworks como ISO 27001 e quais direcionamentos essas empresas precisam seguir para manter a seguranca digital em dia."
   },
 

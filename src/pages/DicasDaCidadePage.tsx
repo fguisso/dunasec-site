@@ -102,6 +102,43 @@ export function DicasDaCidadePage() {
 
       <main>
         <div className={s.container}>
+          <div className={s.featured}>
+            <img
+              src="/buggy-duna.png"
+              alt="Buggy nas dunas de Natal"
+              className={s.featuredImg}
+              loading="lazy"
+            />
+            <div className={s.featuredBody}>
+              <span className={s.featuredBadge}>Bugueiro Oficial do Evento</span>
+              <h2 className={s.featuredTitle}>Passeio de Buggy</h2>
+              <p className={s.featuredDesc}>
+                Conheça as praias e dunas de Natal com o bugueiro oficial do DunaSec.
+              </p>
+              <div className={s.highlights}>
+                <div className={s.highlight}>Diga que foi indicação do Fernando da TI</div>
+              </div>
+              <div className={s.featuredActions}>
+                <a
+                  href="https://wa.me/5584981134822?text=Ol%C3%A1!%20Vim%20pelo%20DunaSec%2C%20indica%C3%A7%C3%A3o%20do%20Fernando.%20Gostaria%20de%20saber%20sobre%20o%20passeio%20de%20buggy."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={s.featuredBtn}
+                >
+                  WhatsApp: (84) 98113-4822
+                </a>
+                <a
+                  href="https://www.instagram.com/jandaira_bugueiro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={s.featuredBtnOut}
+                >
+                  @jandaira_bugueiro
+                </a>
+              </div>
+            </div>
+          </div>
+
           <nav className={s.catNav}>
             <button
               className={`${s.catBtn} ${activeFilter === null ? s.catBtnActive : ''}`}
