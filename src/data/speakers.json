@@ -178,5 +178,50 @@
     "company": "Imobanco",
     "track": "gerencial",
     "photo": "/speakers/rodrigo castro.jpg"
+  },
+  {
+    "id": "jmj",
+    "name": "José Maria Júnior",
+    "initials": "JJ",
+    "role": "Software Engineer",
+    "company": "Itaú",
+    "track": "gerencial",
+    "photo": "/speakers/joze-maria.png"
+  },
+  {
+    "id": "jl2",
+    "name": "Dr. Jónatas Lucena",
+    "initials": "JL",
+    "role": "",
+    "company": "",
+    "track": "gerencial",
+    "photo": ""
+  },
+  {
+    "id": "dmo",
+    "name": "Dr. Daniel Monteiro",
+    "initials": "DM",
+    "role": "",
+    "company": "",
+    "track": "gerencial",
+    "photo": ""
+  },
+  {
+    "id": "dme",
+    "name": "Dr. Diego Medeiros",
+    "initials": "DM",
+    "role": "",
+    "company": "",
+    "track": "gerencial",
+    "photo": ""
+  },
+  {
+    "id": "jo",
+    "name": "Dra. Julliane Oliveira",
+    "initials": "JO",
+    "role": "",
+    "company": "",
+    "track": "gerencial",
+    "photo": ""
   }
 ]

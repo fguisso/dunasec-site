@@ -83,7 +83,10 @@
   {
     "time": "14:55", "endTime": "15:35", "duration": 40,
     "type": "panel", "track": "gerencial",
-    "title": "Tema LGPD (a confirmar)"
+    "title": "Data Privacy & Business: O Impacto Crítico da LGPD nos Contratos Comerciais",
+    "moderatorId": "jl2",
+    "panelistIds": ["dmo", "dme", "jo"],
+    "description": "A LGPD deixou de ser tema só do jurídico e virou peça central nas relações comerciais. Neste painel discutimos como cláusulas de privacidade, responsabilidades entre as partes e a gestão de dados pessoais influenciam contratos, parcerias e a continuidade dos negócios, além dos riscos de quem ainda trata o assunto como detalhe."
   },
 
   { "time": "15:35", "endTime": "16:00", "duration": 25, "type": "general", "title": "Pausa" },
@@ -100,7 +103,7 @@
     "type": "panel", "track": "gerencial",
     "title": "Cibersegurança em ambientes financeiros",
     "moderatorId": "fg",
-    "panelistIds": ["rc", "cn"],
+    "panelistIds": ["rc", "cn", "jmj"],
     "description": "Um painel sobre os desafios de ciberseguranca em fintechs e bancos. Vamos discutir as exigencias do Bacen, a adocao de frameworks como ISO 27001 e quais direcionamentos essas empresas precisam seguir para manter a seguranca digital em dia."
   },
 
